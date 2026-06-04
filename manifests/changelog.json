@@ -1,0 +1,1356 @@
+{
+  "versions": [
+    {
+      "version": "1.3.32",
+      "date": "2026-06-04",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "fix diversos erros"
+        }
+      ]
+    },
+    {
+      "version": "1.3.30",
+      "date": "2026-06-02",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "fix update"
+        }
+      ]
+    },
+    {
+      "version": "1.3.28",
+      "date": "2026-06-01",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "lint errors in config-menu-tabs-cards.js"
+        },
+        {
+          "type": "fixed",
+          "text": "ensure asset validation only runs in production"
+        },
+        {
+          "type": "fixed",
+          "text": "remove asset correction confirmation modal"
+        },
+        {
+          "type": "new",
+          "text": "refactor and unify asset correction flow with new UI"
+        },
+        {
+          "type": "fixed",
+          "text": "loading-screen: import path module"
+        },
+        {
+          "type": "new",
+          "text": "implement boot-time asset validation via IPC"
+        },
+        {
+          "type": "new",
+          "text": "ipc: add install-asset-atomic handler and expose via preload"
+        },
+        {
+          "type": "new",
+          "text": "compiler: generate per-file sha256 checksums"
+        },
+        {
+          "type": "improved",
+          "text": "- docs: create design spec for enhanced hybrid update system"
+        },
+        {
+          "type": "improved",
+          "text": "optimize git update script to only format staged files"
+        },
+        {
+          "type": "improved",
+          "text": "replace remaining ciberverso:// references with relative paths and file://"
+        },
+        {
+          "type": "improved",
+          "text": "remove custom protocol and unused imports"
+        },
+        {
+          "type": "new",
+          "text": "integrate new update UI into UpdateManager and LoadingScreen and fix definition error"
+        },
+        {
+          "type": "improved",
+          "text": "- test: update cmdTestUpdate with final production logic"
+        },
+        {
+          "type": "new",
+          "text": "add animation and character rotation logic to helpers"
+        },
+        {
+          "type": "new",
+          "text": "enhance update menu helpers for rich character display"
+        },
+        {
+          "type": "fixed",
+          "text": "implement new dual-column update menu layout and fix unrelated lint errors"
+        },
+        {
+          "type": "improved",
+          "text": "- desativacao do asar e mudanca do update"
+        },
+        {
+          "type": "fixed",
+          "text": "- tentativa de fix dos updates"
+        },
+        {
+          "type": "fixed",
+          "text": "migrate all CSS and JS asset references to ciberverso:// protocol"
+        },
+        {
+          "type": "new",
+          "text": "implement immediate in-game asset patching and conditional restart"
+        },
+        {
+          "type": "fixed",
+          "text": "align index.html with ciberverso:// protocol and fix path parsing"
+        },
+        {
+          "type": "new",
+          "text": "implement high-performance ciberverso:// protocol for assets"
+        },
+        {
+          "type": "improved",
+          "text": "- chore: commit final pending refactor changes"
+        },
+        {
+          "type": "fixed",
+          "text": "adjust argument parsing for pkg and recompile"
+        },
+        {
+          "type": "improved",
+          "text": "- debug: add verbose logging to updater and recompile"
+        },
+        {
+          "type": "fixed",
+          "text": "restore missing build:update script in package.json"
+        },
+        {
+          "type": "fixed",
+          "text": "remove renderer-unsafe fs call from AssetResolver"
+        },
+        {
+          "type": "improved",
+          "text": "remove bootstrap.cjs and set electron_main.js as entry point"
+        },
+        {
+          "type": "fixed",
+          "text": "restore missing closing brace in package.json"
+        },
+        {
+          "type": "fixed",
+          "text": "add file existence check to AssetResolver for lean install support"
+        },
+        {
+          "type": "new",
+          "text": "restore updater binaries to build and recompile"
+        },
+        {
+          "type": "fixed",
+          "text": "update deprecated resolve to use appAsset and fix pathing"
+        },
+        {
+          "type": "fixed",
+          "text": "update asset paths in css for correct folder structure"
+        },
+        {
+          "type": "fixed",
+          "text": "audio-menu asset path case sensitivity and structure"
+        },
+        {
+          "type": "fixed",
+          "text": "update pre-compiled updater binaries"
+        },
+        {
+          "type": "new",
+          "text": "use pre-compiled binaries for updater helper"
+        },
+        {
+          "type": "new",
+          "text": "implement external updater helper"
+        },
+        {
+          "type": "fixed",
+          "text": "make bootstrap promotion safer against ENOENT/EISDIR"
+        },
+        {
+          "type": "improved",
+          "text": "add npm cache to hybrid build workflow"
+        },
+        {
+          "type": "fixed",
+          "text": "include bootstrap.cjs in hybrid update asar"
+        },
+        {
+          "type": "fixed",
+          "text": "re-add bootstrap.cjs to files for electron-builder"
+        }
+      ]
+    },
+    {
+      "version": "1.3.27",
+      "date": "2026-05-31",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "fix bootstrap"
+        }
+      ]
+    },
+    {
+      "version": "1.3.26",
+      "date": "2026-05-31",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "fast update test"
+        }
+      ]
+    },
+    {
+      "version": "1.3.25",
+      "date": "2026-05-31",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Redesign completo do menu de atualização (fluxo híbrido)"
+        },
+        {
+          "type": "fixed",
+          "text": "Correção de EISDIR no gerenciador de update"
+        },
+        {
+          "type": "improved",
+          "text": "Otimização de empacotamento de dependências"
+        }
+      ]
+    },
+    {
+      "version": "1.3.24",
+      "date": "2026-05-31",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Consertos em alguns sistemas do jogo e no menu de update."
+        }
+      ]
+    },
+    {
+      "version": "1.3.23",
+      "date": "2026-05-31",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Nova tela de downloads, novo sistema de update rápido feito do zero."
+        }
+      ]
+    },
+    {
+      "version": "1.3.22",
+      "date": "2026-05-30",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "fix erro de novos caminhos da compilação"
+        }
+      ]
+    },
+    {
+      "version": "1.3.21",
+      "date": "2026-05-30",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Corrigido erro de carregamento (node:fs) no Renderer e erro de construção de URL"
+        },
+        {
+          "type": "improved",
+          "text": "Refatoração de AssetResolver para maior segurança e compatibilidade com contexto isolado"
+        }
+      ]
+    },
+    {
+      "version": "1.3.20",
+      "date": "2026-05-29",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "corrigido erro no compilador"
+        }
+      ]
+    },
+    {
+      "version": "1.2.58",
+      "date": "2026-05-29",
+      "changes": [
+        {
+          "type": "new",
+          "text": "novo chat! (não testado)"
+        }
+      ]
+    },
+    {
+      "version": "1.2.58",
+      "date": "2026-05-28",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Corrige aplicacao do QTE do tipo Buff no combate"
+        }
+      ]
+    },
+    {
+      "version": "1.2.57",
+      "date": "2026-05-28",
+      "changes": [
+        {
+          "type": "new",
+          "text": "atualizado o ícone do jogo"
+        },
+        {
+          "type": "new",
+          "text": "novo comando /game deck, com ele e possível listar os decks do jogo e mudar (/game deck lista | /game deck trocar {nome do deck}) mais aliases podem ser encontrados na aba live"
+        }
+      ]
+    },
+    {
+      "version": "1.2.56",
+      "date": "2026-05-26",
+      "changes": [
+        {
+          "type": "fix",
+          "text": "Corrigido o z-index do tooltip de status (.si-tooltip-overlay) para evitar sobreposição pelo support-pod."
+        }
+      ]
+    },
+    {
+      "version": "1.2.55",
+      "date": "2026-05-26",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "corrigido a posição dos QTEs (porém pode ter bugs de reativação nos turnos ou não defender o dano, serão consertados depois quando confirmados)"
+        }
+      ]
+    },
+    {
+      "version": "1.2.54",
+      "date": "2026-05-22",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Novas animações de conexão e desconexão do chat"
+        },
+        {
+          "type": "improved",
+          "text": "Visual do player de música atualizado"
+        },
+        {
+          "type": "improved",
+          "text": "Pods de suporte agora mostram QTEs automaticamente"
+        },
+        {
+          "type": "removed",
+          "text": "Removido suporte a capas de álbum para um visual mais limpo"
+        },
+        {
+          "type": "fixed",
+          "text": "Correções gerais na interface e animações"
+        }
+      ]
+    },
+    {
+      "version": "1.2.53",
+      "date": "2026-05-22",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Z-index da camada de alvos corrigido para permitir aplicação de cartas"
+        },
+        {
+          "type": "improved",
+          "text": "Comando /game entrar agora abre o lobby automaticamente"
+        },
+        {
+          "type": "improved",
+          "text": "Normalização de nomes no registro e identificação live"
+        },
+        {
+          "type": "new",
+          "text": "Sistema de cache de capas de álbum via protocolo ciber-cache://"
+        },
+        {
+          "type": "fixed",
+          "text": "Reset profundo de estado (Classes, Suportes, QTEs) ao voltar ao menu"
+        },
+        {
+          "type": "improved",
+          "text": "Migração terminológica de Commander para Support concluída"
+        },
+        {
+          "type": "improved",
+          "text": "Implementados estados Classe 0 e Suporte 0 para placeholders de reset"
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigidos erros de sintaxe e corrupção em arquivos do core"
+        }
+      ]
+    },
+    {
+      "version": "1.2.52",
+      "date": "2026-05-14",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Logs a seguir foram gerados por I.A devido a quantidade enorme de alterações, o jogo não está ainda totalmente atualizado."
+        }
+      ]
+    },
+    {
+      "version": "1.2.51",
+      "date": "2026-05-13",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Nova aba de 'Controles' nas configurações: visualize atalhos de teclado e mouse com uma interface interativa e detecção de hardware."
+        },
+        {
+          "type": "new",
+          "text": "Personalização total de comandos: agora é possível alterar o prefixo (ex: /game) e criar seus próprios nomes e apelidos para os comandos da live."
+        },
+        {
+          "type": "new",
+          "text": "Identidade Visual Unificada: Novo logo do CiberVerso com efeitos de transição aprimorados entre carregamento e menus."
+        },
+        {
+          "type": "new",
+          "text": "Adicionada funcionalidade para renomear pastas de jogos salvos diretamente pela interface."
+        },
+        {
+          "type": "improved",
+          "text": "Novos apelidos intuitivos para comandos comuns (ex: /game mesa, /game revelar, /game passar, /game trocar)."
+        },
+        {
+          "type": "improved",
+          "text": "Sistema de status mais preciso: corrigido o tempo de expiração de buffs e cooldowns que podiam contar em dobro."
+        },
+        {
+          "type": "improved",
+          "text": "Interface de jogo polida: melhorias no layout de status, seleção de personagens e indicadores de alvo."
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido o carregamento de ícones de status criados por usuários."
+        },
+        {
+          "type": "removed",
+          "text": "Removido o tipo de carta 'Minigame' (redundante com cartas interativas)."
+        }
+      ]
+    },
+    {
+      "version": "1.2.50",
+      "date": "2026-04-20",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Refeito a inicio do jogo"
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada a logica do inicio e restart do jogo"
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido alguns bugs"
+        }
+      ]
+    },
+    {
+      "version": "1.2.49",
+      "date": "2026-04-17",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Novo comando /game info suporte, para ver descrição dos suportes."
+        }
+      ]
+    },
+    {
+      "version": "1.2.48",
+      "date": "2026-04-17",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Corrigido bug com o tipo onUse de vídeos de cartas."
+        },
+        {
+          "type": "planned",
+          "text": "Planejado remover o tipo \"Vídeo ao usar\" redundante porque \"Vídeo ao Acertar\" faz basicamente a mesma coisa."
+        }
+      ]
+    },
+    {
+      "version": "1.2.47",
+      "date": "2026-04-17",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Indicadores nos buffs deixando claro o que são."
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido vários bugs relacionado aos status"
+        },
+        {
+          "type": "improved",
+          "text": "Agora as passivas interagem corretamente com os status"
+        },
+        {
+          "type": "removed",
+          "text": "removido coisas relacionadas ao sistema antigo de elementos."
+        }
+      ]
+    },
+    {
+      "version": "1.2.45",
+      "date": "2026-04-15",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "adicionado ícone void, modificado o ícone dark"
+        }
+      ]
+    },
+    {
+      "version": "1.2.44",
+      "date": "2026-04-15",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Corrigido o bug das passivas, QTE e visualizadores de cooldown contando de 2 em 2"
+        }
+      ]
+    },
+    {
+      "version": "1.2.43",
+      "date": "2026-04-14",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "HOTFIX"
+        }
+      ]
+    },
+    {
+      "version": "1.2.42",
+      "date": "2026-04-14",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "corrigido nome do ícone do status *Ice*"
+        },
+        {
+          "type": "removed",
+          "text": "removido o ícone aleatório que foi usado pro *physical*"
+        }
+      ]
+    },
+    {
+      "version": "1.2.41",
+      "date": "2026-04-14",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Sistema completo de status para os jogadores! permite não só o uso dos status criados pelo jogo, como também a criação de status personalizados (ainda precisa ser muito refinado)"
+        },
+        {
+          "type": "new",
+          "text": "Refatoração completa no sistema de salvamento do jogo."
+        },
+        {
+          "type": "improved",
+          "text": "visual da parte relacionada aos status (não testado)"
+        },
+        {
+          "type": "removed",
+          "text": "completamente removido sistema de buffs,resistências, efeitos, cooldowns e outras coisas relacionadas."
+        },
+        {
+          "type": "improved",
+          "text": "Um monte de melhorias em alguns sistemas, visuais e lógicas (não me lembro para detalhar 😃)"
+        }
+      ]
+    },
+    {
+      "version": "1.2.40",
+      "date": "2026-04-10",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Novo filtro adicionado, ao acessar a aba *personagens* e clica com botão direito do mouse e possível ocultar ele dos menus, ainda podem ser usados por comando, as configurações são atualizadas na hora, permitindo alterar durante partidas."
+        },
+        {
+          "type": "new",
+          "text": "Novo Layout para aba *personagens* seguindo o padrão da aba *cartas*."
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada a forma de escolha da função de um personagem, em vez de pequenas caixas usa os botões."
+        },
+        {
+          "type": "fixed",
+          "text": "corrigido alguns bugs de lógica da aba *personagens*."
+        },
+        {
+          "type": "planned",
+          "text": "Remover layout placeholder das abas de suporte e classes."
+        }
+      ]
+    },
+    {
+      "version": "1.2.37",
+      "date": "2026-04-10",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "corrigido o caminho do áudio de crítico que estava apontando para o lugar errado."
+        }
+      ]
+    },
+    {
+      "version": "1.2.36",
+      "date": "2026-04-10",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Adicionado preview do Changelog por meio da notificação."
+        }
+      ]
+    },
+    {
+      "version": "1.2.35",
+      "date": "2026-04-09",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "fix"
+        }
+      ]
+    },
+    {
+      "version": "1.2.34",
+      "date": "2026-04-09",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Corrigido alguns bugs pequenos da barra de janela do jogo sumindo em algumas situações."
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada a aparência e lógica da barra de janela."
+        }
+      ]
+    },
+    {
+      "version": "1.2.33",
+      "date": "2026-04-09",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Problema que sempre criava novo jogo ao importar um backup"
+        }
+      ]
+    },
+    {
+      "version": "1.2.32",
+      "date": "2026-04-08",
+      "changes": [
+        {
+          "type": "removed",
+          "text": "Todo o método de backup antigo, era ineficiente e cheio de limitações"
+        },
+        {
+          "type": "new",
+          "text": "nova aba import e Export, bem mais limpa e com mais detalhes sobre o backup e importação como - tamanho, arquivos, progresso atual, etc."
+        },
+        {
+          "type": "improved",
+          "text": "todo o sistema de arquivos, agora o acesso é mais direto, diminui bastante a demora para carregar arquivos."
+        },
+        {
+          "type": "planned",
+          "text": "Consertar o bug com jogo padrão, após tentar restaurar de um backup em vez de sobrescrever está criando um novo jogo."
+        }
+      ]
+    },
+    {
+      "version": "1.2.31",
+      "date": "2026-04-08",
+      "changes": [
+        {
+          "type": "removed",
+          "text": "Todas as coisas relacionadas a migração de versões antigas"
+        },
+        {
+          "type": "fixed",
+          "text": "corrigido possíveis erros ao criar backups"
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada a forma como backup são criados para ser mais rápido."
+        },
+        {
+          "type": "planned",
+          "text": "Planejado repaginada completa na aba import/export, feedback mais claro durante os backups."
+        }
+      ]
+    },
+    {
+      "version": "1.2.30",
+      "date": "2026-04-08",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Sistema de decks, e possível criar múltiplos decks para o mesmo jogo e alternar entre eles durante a partida ao trocar de deck o anterior permanece em memoria com as cartas que ja foram viradas e usadas."
+        },
+        {
+          "type": "new",
+          "text": "Música tema para o lobby (Gerada por I.A)"
+        },
+        {
+          "type": "new",
+          "text": "Nova música tema do jogo (Gerada por I.A)"
+        },
+        {
+          "type": "new",
+          "text": "Melhorada a playlist"
+        },
+        {
+          "type": "new",
+          "text": "Refeito player de música mais completo e direto"
+        },
+        {
+          "type": "new",
+          "text": "Novas animações quando o jogador leva dano ou e curado"
+        },
+        {
+          "type": "new",
+          "text": "Novas animações ao usar cartas de buff e bloqueios durante a uso de cartas de ataque."
+        },
+        {
+          "type": "improved",
+          "text": "Reescrita do código que conecta o jogo ao electron engine, removido coisas antigas, não utilizadas, todas as ferramentas separadas do arquivo principal (pode gerar bugs)"
+        },
+        {
+          "type": "improved",
+          "text": "Sistema que mostra todas as cartas na tela foi atualizado para ser totalmente compatível com novo game"
+        },
+        {
+          "type": "improved",
+          "text": "Turno e tempo ficam no header aproveitando melhor o espaço"
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido erros de lista durante escolha de personagens QTE ao editar cartas."
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido o tamanho da escolha de QTE na tela de abertura das cartas"
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido erros do sistema de QTE usando a imagem principal dos personagens em vez da imagem de rosto."
+        },
+        {
+          "type": "removed",
+          "text": "Todo o antigo sistema de sub menu superior, todo o player de música, todas as funções ligadas a ele."
+        }
+      ]
+    },
+    {
+      "version": "1.2.26",
+      "date": "2026-03-30",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "corrigido bug dos painéis de uso de bloqueio e buffs estavam aparecendo atrás dos slots"
+        },
+        {
+          "type": "new",
+          "text": "Adicionado comando para mostrar todas as cartas na tela"
+        }
+      ]
+    },
+    {
+      "version": "1.2.25",
+      "date": "2026-03-29",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Corrigido os bugs com a adição dos botões que permite qualquer carta ser segurada, entre eles incluía a falta de opção para usar a carta no jogador mesmo que a opção \"SlotOnly\" não estava marcada."
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada a clareza e tamanho de vários textos de vários menus do jogo."
+        },
+        {
+          "type": "removed",
+          "text": "Removido o texto \"HP\" acima do HP atual do jogador."
+        },
+        {
+          "type": "new",
+          "text": "Agora para adicionar cartas ao slot do jogador após serem viradas e necessário clicar nos slots, clicar no jogador irá usar a carta, carta com \"SlotOnly\" ativo bloqueiam o clique no jogador e só permite clique no slot."
+        },
+        {
+          "type": "new",
+          "text": "Adicionado animações e efeitos para quando uma carta pode ir para o slot."
+        },
+        {
+          "type": "planned",
+          "text": "Remover o player de música atual e todo o menu junto dele"
+        },
+        {
+          "type": "planned",
+          "text": "Criar um player do zero simples."
+        },
+        {
+          "type": "planned",
+          "text": "Adicionar feedbacks as cartas no slot, como efeitos que mostram cooldown da carta, etc."
+        },
+        {
+          "type": "planned",
+          "text": "Adicionar sistema interno de votação as cartas interativas."
+        },
+        {
+          "type": "planned",
+          "text": "refazer os menus de classe e suportes para que sigam o tema geral do jogo."
+        }
+      ]
+    },
+    {
+      "version": "1.2.24",
+      "date": "2026-03-29",
+      "changes": [
+        {
+          "type": "new",
+          "text": "adicionado novo comando (em teste)"
+        }
+      ]
+    },
+    {
+      "version": "1.2.23",
+      "date": "2026-03-29",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Melhorada a preview de suportes do menu de suportes."
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada a visualização de classes do menu de classes"
+        },
+        {
+          "type": "improved",
+          "text": "Agora a descrição da classe no menu de classes aparece por completo"
+        },
+        {
+          "type": "new",
+          "text": "Adicionado botão para permitir que qualquer carta seja segurada"
+        },
+        {
+          "type": "new",
+          "text": "Adicionado botão que só permite uma carta ser usada do slot (alguns bugs a ser corrigidos)"
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada a visualização geral da carta virada na tela."
+        },
+        {
+          "type": "new",
+          "text": "Reativada a aba import/export (temporariamente)"
+        },
+        {
+          "type": "planned",
+          "text": "Consertar pequenos bugs dessa atualização"
+        },
+        {
+          "type": "planned",
+          "text": "adicionar comando para ver todas as cartas no modo live."
+        }
+      ]
+    },
+    {
+      "version": "1.2.22",
+      "date": "2026-03-27",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Algumas melhorias extras no lobby do modo live."
+        },
+        {
+          "type": "planned",
+          "text": "Melhorar a clareza dos textos."
+        }
+      ]
+    },
+    {
+      "version": "1.2.21",
+      "date": "2026-03-27",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Modificada a dimensão e resolução final do cortador no editor de personagens, quadrado 1:1 resolução de saída 720p (Em menus e no editor os personagens podem aparecer cortados)."
+        },
+        {
+          "type": "planned",
+          "text": "Mudar alguns previews para a dimensao nova das imagens de personagens"
+        }
+      ]
+    },
+    {
+      "version": "1.2.20",
+      "date": "2026-03-27",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Melhorado o layout de toda a tela de lobby do modo live."
+        },
+        {
+          "type": "removed",
+          "text": "Removida a aba Import/Export das opções de aba do menu de configurações (Passará por algumas manutenções)"
+        },
+        {
+          "type": "improved",
+          "text": "reorganizada a ordem das abas, agora a aba live será a última."
+        },
+        {
+          "type": "new",
+          "text": "Adicionado novo campo ao changelog \"Planejado\"."
+        },
+        {
+          "type": "planned",
+          "text": "Melhorar mais o layout do lobby do modo live."
+        },
+        {
+          "type": "planned",
+          "text": "Melhorar diversos textos que estão com cores mais escuras."
+        },
+        {
+          "type": "planned",
+          "text": "Fazer uma limpa na aba Import/Export"
+        },
+        {
+          "type": "planned",
+          "text": "Remover todo o suporte de migração de configurações do jogo antigo."
+        },
+        {
+          "type": "planned",
+          "text": "Adicionar 2 botões opcionais as cartas no editor, um que permite que cartas de qualquer tipo possam ou não ser seguradas, e outro que só permite a carta ser usada a partir do slot."
+        },
+        {
+          "type": "planned",
+          "text": "Adicionar Importação e Exportação de cartas e personagens nas respectivas abas, permitindo exportar uma única carta ou personagem para que possa ser adicionado a outro jogo ou compartilhado."
+        },
+        {
+          "type": "planned",
+          "text": "Terminar o player de musica"
+        }
+      ]
+    },
+    {
+      "version": "1.2.19",
+      "date": "2026-03-27",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "re-update"
+        }
+      ]
+    },
+    {
+      "version": "1.2.17",
+      "date": "2026-03-26",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "caminho do ícone do jogo errado."
+        }
+      ]
+    },
+    {
+      "version": "1.2.16",
+      "date": "2026-03-26",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "feito uma reestruturação completa de todos os arquivos e pastas do jogo (isso pode trazer bugs de coisas faltando)"
+        },
+        {
+          "type": "fixed",
+          "text": "Bug da playlist ficar atrás do chat de live"
+        },
+        {
+          "type": "fixed",
+          "text": "diversos layouts errados ou em posições erradas."
+        },
+        {
+          "type": "new",
+          "text": "adicionada nova abordagem para evitar que o histórico de chat no carregamento do modo live acabe executando comandos, os 3 primeiros segundos da ativação não irão aceitar nenhum comando."
+        },
+        {
+          "type": "improved",
+          "text": "restringido corretamente os comandos, durante o lobby não e possível usar comandos que não são relacionados com lobby"
+        },
+        {
+          "type": "improved",
+          "text": "melhorada a formatação de retorno no chat do comando help"
+        },
+        {
+          "type": "improved",
+          "text": "alterada algumas imagens antigas do jogo"
+        },
+        {
+          "type": "fixed",
+          "text": "outros bugs menores resolvidos."
+        }
+      ]
+    },
+    {
+      "version": "1.2.14",
+      "date": "2026-03-25",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Trocada a tela splash em vez de texto com sombra, usa imagem com mesclagem automática com fundo."
+        },
+        {
+          "type": "improved",
+          "text": "Mudança na fonte do título no menu principal"
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido animação errada na Splash screen onde a imagem fazia um pop-up, o correto é fazer um fate suave."
+        },
+        {
+          "type": "removed",
+          "text": "Cor gradiente dos textos de título do menu principal, agora são brancos com 80% de transparência."
+        }
+      ]
+    },
+    {
+      "version": "1.2.13",
+      "date": "2026-03-23",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Corrigido e testado o problema de não remover e nem adicionar vídeos as cartas."
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido fluxo errado de atualizações rápidas, agora mostra notificação perguntando se quer reiniciar ou não, agora o Changelog deve aparecer após reiniciar."
+        }
+      ]
+    },
+    {
+      "version": "1.2.11",
+      "date": "2026-03-22",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "adicionado \"i\" para o /game info slot"
+        }
+      ]
+    },
+    {
+      "version": "1.2.10",
+      "date": "2026-03-21",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "adicionado novos alias para o comando \"/game passiva\" - passive,ativar,pass"
+        },
+        {
+          "type": "improved",
+          "text": "adicionado novos alias para o comando \"/game mudarprefixo\" - modo"
+        },
+        {
+          "type": "improved",
+          "text": "adicionado novos alias para o comando \"/game fim\" - encerrar, passar, terminar"
+        },
+        {
+          "type": "improved",
+          "text": "adicionado novos alias para o comando \"/game abrir\" - open, revelar, card, escolher"
+        }
+      ]
+    },
+    {
+      "version": "1.2.9",
+      "date": "2026-03-21",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "limite inicial de cartas do modo live aumentado para 3"
+        }
+      ]
+    },
+    {
+      "version": "1.2.8",
+      "date": "2026-03-21",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "corrigida da altura do chat do modo live"
+        },
+        {
+          "type": "improved",
+          "text": "Tema do jogo aplicado ao sistema de notificações."
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido um erro que fazia o chat vazar da tela e acabava não mostrando realmente as mensagens recentes."
+        }
+      ]
+    },
+    {
+      "version": "1.2.7",
+      "date": "2026-03-20",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Melhorado o chat agora ele não mostra mais o @ junto do nome"
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada lógica geral do modo live evitando alguns bugs"
+        },
+        {
+          "type": "fixed",
+          "text": "todos os comandos foram revisados e vários bugs corrigidos"
+        },
+        {
+          "type": "new",
+          "text": "Agora no modo live o turno só aumenta após a rodada termina (quando ambos os jogadores terminam sua vez)"
+        },
+        {
+          "type": "improved",
+          "text": "Membros do canal ficam destacados no chat, o dono do canal também (não testado)"
+        },
+        {
+          "type": "fixed",
+          "text": "Possivelmente consertado o problema de mostrar destacado mensagens do jogo e do bot ao mesmo tempo, agora do bot não deve aparecer."
+        },
+        {
+          "type": "fixed",
+          "text": "Algumas notificações duplicadas | Diversas notificações serão removidas quando o jogo sair da fase de testes, por enquanto são mantidas para saber melhor o que está acontecendo."
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada as mensagens que vão para o chat da live são mais claras e menos técnicas."
+        },
+        {
+          "type": "fixed",
+          "text": "Agora o comando /game abrir, irá abrir corretamente as cartas do jogo de acordo com o número atrás delas e o embaralhamento, não mais abrindo na ordem de criação."
+        },
+        {
+          "type": "new",
+          "text": "Adicionado \"Apelidos\" aos comandos, agora os comandos podem ser usados por outros nomes que forem configurados no código, exemplo /game abrir tem um \"apelido\" (revelar) e pode ser executado com esse nome também"
+        },
+        {
+          "type": "new",
+          "text": "Adicionado o comando prefixo como um comando válido, assim alternando rapidamente entre versões daquele mesmo personagem sem escrever o nome dele (/game prefixo DPS/BREAKER)."
+        }
+      ]
+    },
+    {
+      "version": "1.2.6",
+      "date": "2026-03-20",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Totalmente implementada as funções do editor/criador de jogos agora as imagens são aplicadas ao jogo e atualizadas em tempo real ao trocar o jogo. (necessário refazer o upload no novo editor em um jogo já criado anteriormente)"
+        },
+        {
+          "type": "new",
+          "text": "Adicionado sincronizacao de arquivos durante o loading do jogo, isso irá sincronizar arquivos relacionados a assets injetados nas atualizações (Placeholder de erros, atualizações visuais para o jogo base \"CiberVerso\", Adição ou remoção e configurações ou arquivos do jogo base)"
+        }
+      ]
+    },
+    {
+      "version": "1.2.5",
+      "date": "2026-03-19",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Janela própria do jogo com tema atual do jogo, botões (minimizar/maximizar/Fullscreen/Fechar)"
+        },
+        {
+          "type": "improved",
+          "text": "Botão F voltou a alternar entre Fullscreen e Janela."
+        },
+        {
+          "type": "improved",
+          "text": "Jogo inicia sempre em fullscreen"
+        },
+        {
+          "type": "fixed",
+          "text": "Aba do modo live melhorada, agora tem indicadores caso esteja tudo certo e mostra preview da live que foi encontrada."
+        },
+        {
+          "type": "improved",
+          "text": "Adicionado botão de teste para o bot do StreamElements."
+        }
+      ]
+    },
+    {
+      "version": "1.2.4",
+      "date": "2026-03-19",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "possível fix de conexão do modo live"
+        }
+      ]
+    },
+    {
+      "version": "1.2.3",
+      "date": "2026-03-18",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Consertado problemas de conexão do modo live"
+        },
+        {
+          "type": "fixed",
+          "text": "adicionado melhor feedback para conexão do modo live, ícone do botão agora demostra os estados de conexão (branco=desconectado, amarelo=erro, animado= buscando conexão, vermelho= conectado)"
+        },
+        {
+          "type": "new",
+          "text": "Botão \"+\" do lado direito do teclado permite o jogador selecionar mais uma carta além das 2 padrão, \"-\" tira cartas dele"
+        },
+        {
+          "type": "improved",
+          "text": "Melhorado o retorno dos logs de debug sobre o modo live"
+        },
+        {
+          "type": "fixed",
+          "text": "problema que mesmo após o painel de buff/bloqueio ser mostrado era possível aplicar o dano pulando essa etapa"
+        },
+        {
+          "type": "fixed",
+          "text": "removido suporte a animações para tela de loading"
+        }
+      ]
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-03-18",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "corrigido alguns erros com menus arrastando a janela do jogo"
+        },
+        {
+          "type": "fixed",
+          "text": "corrigido erro do botão \"Live\" que não estava verificando as configurações e iniciando o modo live"
+        },
+        {
+          "type": "fixed",
+          "text": "corrigido um erro em que após o modo live ser iniciado o lobby não abria automaticamente"
+        },
+        {
+          "type": "removed",
+          "text": "removido o modo transparente da janela"
+        }
+      ]
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-03-16",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Corrigido a falta do icone de desktop do jogo."
+        }
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-03-16",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Adicionada janela integrada ao jogo para melhor visual"
+        },
+        {
+          "type": "new",
+          "text": "Novo ícone!"
+        },
+        {
+          "type": "new",
+          "text": "Novo fluxo de gameplay ao revelar cartas, agora mais intuitivo, sem criar novos menu ou overlays de tela toda."
+        },
+        {
+          "type": "improved",
+          "text": "Melhorado a interação com Windows."
+        },
+        {
+          "type": "new",
+          "text": "Novas animações de interação entre as cartas."
+        },
+        {
+          "type": "improved",
+          "text": "Pequenas melhorias visuais no editor de carta."
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada a aba cartas e seu visual, agora mais limpo e melhor organizado."
+        },
+        {
+          "type": "removed",
+          "text": "Modo 4 jogadores"
+        },
+        {
+          "type": "removed",
+          "text": "Removido suporte a mais de 6 slots"
+        },
+        {
+          "type": "removed",
+          "text": "Uso automático de buffs ou bloqueios"
+        },
+        {
+          "type": "fixed",
+          "text": "Restaurada algumas opções do editor de cartas que estava faltando."
+        },
+        {
+          "type": "fixed",
+          "text": "restaurada algumas opções de personagens que estavam faltando"
+        },
+        {
+          "type": "fixed",
+          "text": "corrigido o tamanho do preview da imagem do personagem."
+        },
+        {
+          "type": "fixed",
+          "text": "corrigido ícones de abas aparecendo (não e pra ter ícones)"
+        },
+        {
+          "type": "removed",
+          "text": "removido a tecla \"F\" que deixava o jogo em fullscreen, ela somente tira o jogo do fullscreen para resolver problemas caso botões da janela integrada sumam."
+        },
+        {
+          "type": "new",
+          "text": "Agora parte superior do menu de áudio pode ser usada para arrastar o jogo e mudar sua posição na tela."
+        }
+      ]
+    }
+  ]
+}
