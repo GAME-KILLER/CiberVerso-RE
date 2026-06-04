@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "buildType": "hybrid",
-  "version": "1.3.32",
-  "releaseTag": "v1.3.32-ug",
-  "generatedAt": "2026-06-04T02:30:40.996Z",
+  "version": "1.4.0",
+  "releaseTag": "v1.4.0-ug",
+  "generatedAt": "2026-06-04T20:48:47.514Z",
   "fileHashes": {
-    "ciberverso/changelog.json": "2643c485e73cb06733bb2625ec52245b46e185d0cfe336b7024103b9553494d7",
+    "ciberverso/changelog.json": "963adb5800a9cc60ed8acb08773e2be235a4a7283b5e5caecae77ddb0e44adb1",
     "ciberverso/components/changelog.js": "7ab159e5d303f2b89d25d4688d64ba372a222d37fb20b959eceba2435a7316e9",
     "ciberverso/components/crop-tool.js": "db31ebe30a702e44b39ad1be17e9d0937c7c5e44c13c063889f4983d79cfdadf",
-    "ciberverso/components/debug-console.js": "b411fbecacc47b3df979f5acbd360e1b47bb36c64254a82f572716a0c05cf0d2",
+    "ciberverso/components/debug-console.js": "2127e15262cc5b1fd15fd64fe6ebb5a1c0e7c4fdd730d10c6a57ad7b4dae96ec",
     "ciberverso/components/upload-handler.js": "e6ade577571cdfbedbd45eb83f1ecd4e104dfdfd047145d244f870c5b1b4fa97",
     "ciberverso/components/yt-logo-loader.js": "44dff42a031af90e90f447329cc2e47235a04022dddcdff0d93c06a6994d7758",
     "ciberverso/core/asset-resolver.js": "34329b262f1321b18299f0ab557f68933d573563276fb6815444d50c0c842cda",
@@ -36,7 +36,7 @@
     "ciberverso/core/turn-system.js": "c690c1aa226dad6e4e74cc3deecc94c01be07abbb323230c2e896cb778dd8564",
     "ciberverso/core/update/update-core.js": "add0f9ed43628710f66cc3b1c2ca978ccb80d5df1e9883fad67e8f08d9ba2b4e",
     "ciberverso/core/update-core.js": "add0f9ed43628710f66cc3b1c2ca978ccb80d5df1e9883fad67e8f08d9ba2b4e",
-    "ciberverso/core/update-manager.js": "55ed67c157e65cf5f682708dac76ddffd773fb1fb24e2cc972bffe876d6db447",
+    "ciberverso/core/update-manager.js": "6de0eb3e270098e837e18451f78e3c0985884d967d168906a20ad1290ac08d0a",
     "ciberverso/core/window-bar-controls.js": "664548dbdba1a7f82b29c6a06dbaefdac9a64e5c6e9357e4054180a9402592a1",
     "ciberverso/import.json": "7c94868ec9f58bf707209d5c033d69386634ef1089e3395342a2ea33b4be4341",
     "ciberverso/interface/animations/_util.js": "bfbb04003f391eb69b04a4c80c25e313fdc5588c616e16b1f178aa9fad8e4b50",
@@ -53,14 +53,14 @@
     "ciberverso/interface/game-switch/game-selector-ui.js": "a63b427fa082419064060916158375928be024962b458b10d7bb6c1365b3c43f",
     "ciberverso/interface/gameplay-ui.js": "a358cd41220a451f85ecbbe305a73e8d1841daa207bf860f65ba5c8a2d704c9e",
     "ciberverso/interface/live-chat-overlay.js": "49f7b0a0eb9ea40b359ecddbe63b74cb28d1301a0daf165b2cdfbe00798dbd61",
-    "ciberverso/interface/loading-screen.js": "1bd93a87a9b34075ec9f7e919d1b292d3ce399372c38537642db23bbcb6738de",
+    "ciberverso/interface/loading-screen.js": "ebb15733611db37936a962af45615f3f14adde00748cb5d95f50652b1df92ebe",
     "ciberverso/interface/main-menu.js": "d650c77dd2b6e86b105ce8cd51f3a1e4134657537833913c4835ce00c90086c9",
     "ciberverso/interface/notification-manager.js": "7f9b65fb183d819a455f34d1984a3077e4b0b6d7ee8a5ef61c76fb2a6606ae0d",
     "ciberverso/interface/pause-panel.js": "a793cab2473bfa9364348090d4409ee180b20ba9fe82bc3fe70e270ffbb968f0",
     "ciberverso/interface/player-ui.js": "56c5ffb41bb2e690615c2b381b072eb977490ad32070f0f550a2923ba186338a",
     "ciberverso/interface/transition-system.js": "0219714f0bad7fa86f01344c0aeb3ccff14f8e2f575d30969194aa672032d64b",
     "ciberverso/interface/universal-card-ui.js": "8323e890f950b00e4fb5e0a848b824819fa0f9bb8d074e08509e1a5e1ab27337",
-    "ciberverso/interface/update-ui.js": "524e6ad95a3ffc6aa1b50949f78d2fc101e0c896293ab42e890da45edea79fd5",
+    "ciberverso/interface/update-ui.js": "bff857e1c2ab380cccabde29da6af9bb589f1840659b636c6ae07dd944b2dbb6",
     "ciberverso/styles/config-ui/config-menu-tabs-cards.css": "c1ca13fd28d751b81402ab608780f3c9659659117479828dbf0cc3e937378dbd",
     "ciberverso/styles/config-ui/config-menu-tabs-characters.css": "f87c605d0258d8d154f45532095a42e08af99c152ce29807279662fadbec0357",
     "ciberverso/styles/config-ui/config-menu-tabs-controls.css": "ff838cda0616ed02939ef4d78e66f549c570e4e19f7171792cd56104af8447e7",
@@ -93,8 +93,8 @@
     "ciberverso/styles/ui/style.css": "eac56d5e663bbbe0d0147170909bedfab7012e8bf1bac1dedc60600a4a5c9cae",
     "ciberverso/styles/ui/transition-system.css": "f7876de77eb32c26add8677ad5f4de1377d4257a7dacb943bfacbc4b789e2287",
     "ciberverso/styles/ui/ui-icons.css": "9958e9c1fd5c389a4b44f3634f797c5b8a5cb91e13faac3f6b67fab5dfa7c1fc",
-    "ciberverso/styles/ui/update-manager.css": "c4c5a4d5a0953e6e511819bbd4b4f5a6bbee42f85bc8372da56d5e2df4a8da3b",
-    "ciberverso/styles/ui/update-menu.css": "31fe906b3247be13ed3fbde701569a768a56785b6ee9d85d205b65edcecdb200",
+    "ciberverso/styles/ui/update-manager.css": "2e55145cd431aa0385dd785446856996cc8bab3d3fffb19aba6466193d8efc8b",
+    "ciberverso/styles/ui/update-menu.css": "0e0939f0931fd570c58dbddc2812bd1bed25e3a5c49f16483a957cb6cefecd8a",
     "ciberverso/styles/ui/window-bar.css": "75316d62864c8e42b2b5f294f64a157f136a9a1a5c3a4d84abe98e2c047abf88",
     "ciberverso/styles/z-index.css": "4426f68031aa308506045ac194c7261396dd9b85ab98afa6f9b2e7ab5ad542ed",
     "ciberverso/systems/audio/audio-manager.js": "ba30b54a26a13efb81e83282dc56496a73dd39f08ddc319df9289813d9b3bea5",
@@ -144,10 +144,10 @@
     "ipc/ipc-window.js": "8557963ceee067b33d95444cba77c74c4569b32e8b8185626a0fa9eaa7f53c21"
   },
   "code": {
-    "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.3.32-ug/ciberverso-code.zip",
+    "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/ciberverso-code.zip",
     "artifactName": "ciberverso-code.zip",
-    "size": 469717,
-    "sha256": "f0450a0cb93c32fd4613efab836313cf5b1a8a37f4e9b8f4c51104e902212894",
+    "size": 460209,
+    "sha256": "726cfeafbdb38d8f03423d6ecceccb24b0572acc3b38074c358b6285a9322bc1",
     "platform": "linux"
   },
   "assetChunks": [
@@ -155,9 +155,9 @@
       "chunkId": "default-game",
       "sourceFolder": "default-game",
       "artifactName": "assets-default-game.zip",
-      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.3.32-ug/assets-default-game.zip",
+      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/assets-default-game.zip",
       "size": 321530939,
-      "sha256": "4d9f96bc0177c4e62f7e9ea3bf8662d0a7830c22aa108ba0e510c0dd6154ac49",
+      "sha256": "f1af7c10a4d3cbb7b5688426b118cd4cc534592fd30b4e2d289cd5b57b30419e",
       "files": [
         {
           "assetPath": "default-game/UI/background.png",
@@ -183,9 +183,9 @@
       "chunkId": "fonts",
       "sourceFolder": "fonts",
       "artifactName": "assets-fonts.zip",
-      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.3.32-ug/assets-fonts.zip",
+      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/assets-fonts.zip",
       "size": 931969,
-      "sha256": "2778019a33352fc988f60a59c054943af3264aa09a83a190fad95b3c620eda4e",
+      "sha256": "1cf9ab479b94b373392a5059306516bd1232d7cc674c1175e533a9f42cbc63c7",
       "files": [
         {
           "assetPath": "fonts/Bring Race.otf",
@@ -307,9 +307,9 @@
       "chunkId": "icons",
       "sourceFolder": "icons",
       "artifactName": "assets-icons.zip",
-      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.3.32-ug/assets-icons.zip",
+      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/assets-icons.zip",
       "size": 869591,
-      "sha256": "3c1e41ff7afa67343a157d4e5f25ddcf6d79d9f4505cef4f8acd70115d012532",
+      "sha256": "ae96af0af90e526de623c98a752b011e809e2e85ec90277fc375bd1c38553d3f",
       "files": [
         {
           "assetPath": "icons/512x512.png",
@@ -335,9 +335,9 @@
       "chunkId": "ui",
       "sourceFolder": "ui",
       "artifactName": "assets-ui.zip",
-      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.3.32-ug/assets-ui.zip",
+      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/assets-ui.zip",
       "size": 186694588,
-      "sha256": "a5ac58b05373a171e13c6ed40bf18bb326b8e176628d0159b3d49d6953c377a8",
+      "sha256": "c8c88b2e528e22ba569a3d79af50f2d526640f76dfde10e3b72d001e55ea8f26",
       "files": [
         {
           "assetPath": "ui/criadores/Bozinho.jpg",
