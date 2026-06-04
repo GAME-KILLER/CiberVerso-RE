@@ -1,6 +1,40 @@
 {
   "versions": [
     {
+      "version": "1.4.1",
+      "date": "2026-06-04",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Nova UI para updates"
+        },
+        {
+          "type": "new",
+          "text": "Novo sistema de updates"
+        },
+        {
+          "type": "new",
+          "text": "Novo sistema de validação, verificação e reparo de assets"
+        },
+        {
+          "type": "new",
+          "text": "Melhorado a forma que os updates são feitos para melhorar a velocidade de download sem limitação pelo lado do servidor"
+        },
+        {
+          "type": "improved",
+          "text": "Melhorado o painel de edição de cartas para ser mais organizado e fácil de usar"
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada o editor de personagens (ainda não totalmente finalizado)"
+        },
+        {
+          "type": "planned",
+          "text": "Melhoria da sub aba de mídia para mostrar preview dos vídeos e áudios ao configurar cartas e personagens (atualmente não foi totalmente finalizado)"
+        }
+      ]
+    },
+    {
       "version": "1.4.0",
       "date": "2026-06-04",
       "changes": [
