@@ -1,6 +1,11 @@
 {
   "versions": [
     {
+      "version": "1.4.3",
+      "date": "2026-06-05",
+      "changes": []
+    },
+    {
       "version": "1.4.2",
       "date": "2026-06-05",
       "changes": [

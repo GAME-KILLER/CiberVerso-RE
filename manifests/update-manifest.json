@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "buildType": "hybrid",
-  "version": "1.4.0",
-  "releaseTag": "v1.4.0-ug",
-  "generatedAt": "2026-06-04T20:48:47.514Z",
+  "version": "1.4.3",
+  "releaseTag": "v1.4.3-ug",
+  "generatedAt": "2026-06-05T00:50:32.520Z",
   "fileHashes": {
-    "ciberverso/changelog.json": "963adb5800a9cc60ed8acb08773e2be235a4a7283b5e5caecae77ddb0e44adb1",
+    "ciberverso/changelog.json": "b9a6c9fbef1c4203db6669aa35d506343344ab23a361950c2cada2ac4fcd4229",
     "ciberverso/components/changelog.js": "7ab159e5d303f2b89d25d4688d64ba372a222d37fb20b959eceba2435a7316e9",
     "ciberverso/components/crop-tool.js": "db31ebe30a702e44b39ad1be17e9d0937c7c5e44c13c063889f4983d79cfdadf",
     "ciberverso/components/debug-console.js": "2127e15262cc5b1fd15fd64fe6ebb5a1c0e7c4fdd730d10c6a57ad7b4dae96ec",
@@ -109,7 +109,7 @@
     "ciberverso/systems/cards/deck-manager.js": "f47e6b97e1ac101833fa059763a4000f249d754e7e3e10c38499ff47437099fb",
     "ciberverso/systems/cards/interativa/interactive-card-commands.js": "bd9f9658dab9dc1c2d2c3eb81a3b5ce70f066b5a0ea55f6d627642b12ad526d5",
     "ciberverso/systems/cards/interativa/interactive-card-core.js": "31be93fb9842106b990bdbb158943882d5da27c8a67395dffad9a639684136aa",
-    "ciberverso/systems/cards/interativa/interactive-card-effects.js": "2d561ddec79ef18ad0658fa8060a00d9e16a05f4e28f75e524a9d37fdc5ee0b9",
+    "ciberverso/systems/cards/interativa/interactive-card-effects.js": "4839027cbb6783b0f2ae4e571308c5f45fc3fe24fe0e49d13f853d651ab02182",
     "ciberverso/systems/cards/interativa/interactive-card-variables.js": "69bafc7609949daa697a8af393f5c9524aec377be21f11b7f4d11d85c341a6e6",
     "ciberverso/systems/integrations/CustomCommandExample.js": "6158b5337b5fbf1c2559a4990af6bf8c0382ab256671c6b9063e70b513eebb74",
     "ciberverso/systems/integrations/command-registry.js": "50744c21ca12f1f50394077733e1f83a10d0b8e896e9b60310162998aca0bb66",
@@ -144,10 +144,10 @@
     "ipc/ipc-window.js": "8557963ceee067b33d95444cba77c74c4569b32e8b8185626a0fa9eaa7f53c21"
   },
   "code": {
-    "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/ciberverso-code.zip",
+    "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.3-ug/ciberverso-code.zip",
     "artifactName": "ciberverso-code.zip",
-    "size": 460209,
-    "sha256": "726cfeafbdb38d8f03423d6ecceccb24b0572acc3b38074c358b6285a9322bc1",
+    "size": 460555,
+    "sha256": "5363cbf817701c5284b1458bf026358bfa5b68c324cf2b7f91a09258421ca9bb",
     "platform": "linux"
   },
   "assetChunks": [
@@ -155,9 +155,9 @@
       "chunkId": "default-game",
       "sourceFolder": "default-game",
       "artifactName": "assets-default-game.zip",
-      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/assets-default-game.zip",
+      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.3-ug/assets-default-game.zip",
       "size": 321530939,
-      "sha256": "f1af7c10a4d3cbb7b5688426b118cd4cc534592fd30b4e2d289cd5b57b30419e",
+      "sha256": "389e1c2521469b125e244796223927dcd90cd54320c5461e6d2604995ea17648",
       "files": [
         {
           "assetPath": "default-game/UI/background.png",
@@ -183,9 +183,9 @@
       "chunkId": "fonts",
       "sourceFolder": "fonts",
       "artifactName": "assets-fonts.zip",
-      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/assets-fonts.zip",
+      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.3-ug/assets-fonts.zip",
       "size": 931969,
-      "sha256": "1cf9ab479b94b373392a5059306516bd1232d7cc674c1175e533a9f42cbc63c7",
+      "sha256": "6e4f5a136f0ca28e8e247b920e3350306cd479dfe50755efacb799fe26f03b2b",
       "files": [
         {
           "assetPath": "fonts/Bring Race.otf",
@@ -304,40 +304,12 @@
       ]
     },
     {
-      "chunkId": "icons",
-      "sourceFolder": "icons",
-      "artifactName": "assets-icons.zip",
-      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/assets-icons.zip",
-      "size": 869591,
-      "sha256": "ae96af0af90e526de623c98a752b011e809e2e85ec90277fc375bd1c38553d3f",
-      "files": [
-        {
-          "assetPath": "icons/512x512.png",
-          "relativePath": "icons/512x512.png",
-          "size": 364789,
-          "sha256": "4b8f575aeacaf302611a32e99954e7d1d8e56bd60466a06fbd035d8aa08aeb13"
-        },
-        {
-          "assetPath": "icons/icon.ico",
-          "relativePath": "icons/icon.ico",
-          "size": 370070,
-          "sha256": "f9a23ab14fba053dd961a5588e8ddb90990e22166407910808cc8127da66aafa"
-        },
-        {
-          "assetPath": "icons/icon.png",
-          "relativePath": "icons/icon.png",
-          "size": 364789,
-          "sha256": "4b8f575aeacaf302611a32e99954e7d1d8e56bd60466a06fbd035d8aa08aeb13"
-        }
-      ]
-    },
-    {
       "chunkId": "ui",
       "sourceFolder": "ui",
       "artifactName": "assets-ui.zip",
-      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.0-ug/assets-ui.zip",
+      "url": "https://github.com/GAME-KILLER/CiberVerso-RE/releases/download/v1.4.3-ug/assets-ui.zip",
       "size": 186694588,
-      "sha256": "c8c88b2e528e22ba569a3d79af50f2d526640f76dfde10e3b72d001e55ea8f26",
+      "sha256": "fae417d8677af06bf589a25b36058af1ef9fd316f7e2bbbfd5bac1b9b1dd1625",
       "files": [
         {
           "assetPath": "ui/criadores/Bozinho.jpg",
