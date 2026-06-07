@@ -1,6 +1,36 @@
 {
   "versions": [
     {
+      "version": "1.4.4",
+      "date": "2026-06-07",
+      "changes": [
+        {
+          "type": "new",
+          "text": "80% dos textos do jogo foram extraidos para um arquivo externo e linkados a cada caixa, UI, opção e texto do jogo, permitindo que o jogo seja facilmente traduzido para vários idiomas."
+        },
+        {
+          "type": "new",
+          "text": "Nova opção na aba geral das configurações para mudar o idioma do jogo."
+        },
+        {
+          "type": "new",
+          "text": "Adicionado o suporte parcial ao inglês."
+        },
+        {
+          "type": "planned",
+          "text": "Editar diversos textos em português para melhorar a UI."
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido erros das opções de comandos customizados ao editar cartas não aparecendo nem salvando"
+        },
+        {
+          "type": "fixed",
+          "text": "Provavelmente corrigido o jogo não encontrando updates de cliente."
+        }
+      ]
+    },
+    {
       "version": "1.4.3",
       "date": "2026-06-05",
       "changes": []
