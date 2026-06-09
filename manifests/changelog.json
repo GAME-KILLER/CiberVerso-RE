@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "1.4.5",
+      "date": "2026-06-09",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Corrigido alguns erros no código e alguns layouts errado"
+        },
+        {
+          "type": "new",
+          "text": "Adicionado \"Cyber\"."
+        },
+        {
+          "type": "improved",
+          "text": "Melhorada a leitura do chat ocultando as mensagens do bot do chat"
+        }
+      ]
+    },
+    {
       "version": "1.4.4",
       "date": "2026-06-07",
       "changes": [
