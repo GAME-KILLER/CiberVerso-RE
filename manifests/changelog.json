@@ -1,6 +1,28 @@
 {
   "versions": [
     {
+      "version": "1.4.6",
+      "date": "2026-06-10",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Adicionado a biblioteca omnivoice para criação de vozes (Não foi testada, não foi verificada, Necessário GPU NVIDIA o desempenho depende do hardware do computador)"
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido erro de reset nas passivas ao trocar de personagens"
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido erro dos status não representarem corretamente o tempo da passiva."
+        },
+        {
+          "type": "improved",
+          "text": "Muitas melhorias no fluxo de atualizações para serem mais rápidas e melhorada a detecção delas."
+        }
+      ]
+    },
+    {
       "version": "1.4.5",
       "date": "2026-06-09",
       "changes": [
