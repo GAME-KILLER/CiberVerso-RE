@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "1.4.8",
+      "date": "2026-06-11",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Adicionado sistema de suporte, outros usuários do chat podem ser suportes de um jogador e interagir com o jogo"
+        },
+        {
+          "type": "new",
+          "text": "Novos comandos • /game convidar | /game apoio [P1/P2] | /game sair"
+        },
+        {
+          "type": "fixed",
+          "text": "Provavelmente corrigido erros que faziam com que determinadas cartas que tivessem sido \"clonadas\" para outros decks, durante a troca de decks apareciam fechadas."
+        }
+      ]
+    },
+    {
       "version": "1.4.7",
       "date": "2026-06-11",
       "changes": [
