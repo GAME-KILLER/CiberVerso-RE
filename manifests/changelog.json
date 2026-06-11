@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "version": "1.4.7",
+      "date": "2026-06-11",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Mudado o modelo base da Cyber para um que sofre menos com indisponibilidade, pequenas alterações na personalidade."
+        }
+      ]
+    },
+    {
       "version": "1.4.6",
       "date": "2026-06-10",
       "changes": [
