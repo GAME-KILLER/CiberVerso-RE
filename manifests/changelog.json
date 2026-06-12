@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "version": "1.4.10",
+      "date": "2026-06-12",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "adicionada opção para abrir cartas aleatórias usando \"?\" no lugar dos números."
+        }
+      ]
+    },
+    {
       "version": "1.4.9",
       "date": "2026-06-11",
       "changes": [
