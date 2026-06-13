@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "1.4.12",
+      "date": "2026-06-13",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "melhorada os testes por meio do debug do jogo, agora e possível passar com qual jogador quer executar o comando, exemplos via debug /game p1 abrir | /game p2 usar slot, etc"
+        },
+        {
+          "type": "new",
+          "text": "Adicionado retornos mais claros no chat dos comandos a serem usados para o fluxo de jogo"
+        },
+        {
+          "type": "fixed",
+          "text": "Corrigido alguns bugs nesse sistema, o fluxo dele e bem complicado de mapear então a melhor forma e baseado em testes e vendo o que falta e refinar com o tempo."
+        }
+      ]
+    },
+    {
       "version": "1.4.11",
       "date": "2026-06-13",
       "changes": [
