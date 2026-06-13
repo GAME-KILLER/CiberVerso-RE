@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "1.4.11",
+      "date": "2026-06-13",
+      "changes": [
+        {
+          "type": "new",
+          "text": "adicionar um sistema de orquestramento de jogo, esse sistema .será expandido e usado para que o chat tenha total controle sobre o jogo, ele orquestra fluxos interativos pelo chat, passando o contexto necessário para as ações até o fim da execução."
+        },
+        {
+          "type": "improved",
+          "text": "Melhorado o comando /game usar slot N para que utilize o orquestrador (não testado)"
+        },
+        {
+          "type": "new",
+          "text": "adicionado vários comandos para todo o fluxo de uso de uma carta do slot"
+        }
+      ]
+    },
+    {
       "version": "1.4.10",
       "date": "2026-06-12",
       "changes": [
