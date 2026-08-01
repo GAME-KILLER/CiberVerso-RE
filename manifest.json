@@ -1,6 +1,6 @@
 {
   "version": "1.4.12",
-  "generatedAt": "2026-08-01T00:00:44.834Z",
+  "generatedAt": "2026-08-01T00:50:23.067Z",
   "files": [
     {
       "path": "default-game/ui/background.png",
@@ -111,6 +111,31 @@
       "path": "fonts/gameplaya/Gameplaya.ttf",
       "sha256": "b56fd60a8259af42bb1478621d357b2908d9d315175d2d046043e7eeb8e84e14",
       "size": 15440
+    },
+    {
+      "path": "ui/changelog/icon-fixed.svg",
+      "sha256": "e92c69f591d4eeabecd18c7a4e7be29742ec33d3cda37223fc0ce307ab210a99",
+      "size": 271
+    },
+    {
+      "path": "ui/changelog/icon-improved.svg",
+      "sha256": "ad4b66b6622edb2420b4582e72e06c43ca6a552e1989ced4ffa5cdc301b1bf21",
+      "size": 240
+    },
+    {
+      "path": "ui/changelog/icon-new.svg",
+      "sha256": "8adefac7c604c63b078ef3e7d78b9a6d7565c546a3a5b9f45083b9d988bc651f",
+      "size": 256
+    },
+    {
+      "path": "ui/changelog/icon-planned.svg",
+      "sha256": "f56952b17e8f1741fa4cb2a4538d67284f7ec1a9dd3f6966b5efa5ef6d8c1977",
+      "size": 244
+    },
+    {
+      "path": "ui/changelog/icon-removed.svg",
+      "sha256": "0558d7d95d3e5dcfbb1eb2d9f5383ca73c86339d9f49c07d6862e499c09e939f",
+      "size": 294
     },
     {
       "path": "ui/criadores/Bozinho.jpg",
