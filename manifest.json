@@ -1,6 +1,6 @@
 {
   "version": "1.4.12",
-  "generatedAt": "2026-08-01T00:50:23.067Z",
+  "generatedAt": "2026-08-09T12:55:43.199Z",
   "files": [
     {
       "path": "default-game/ui/background.png",
@@ -209,8 +209,13 @@
     },
     {
       "path": "ui/placeholders/default_classe.png",
-      "sha256": "0d618cc4198987e43dda3936fcc9a919715bad9fb198f5b091847d232c60b8d9",
-      "size": 4279245
+      "sha256": "96f7203b8d04a61ae57bfa9e6b6239b718d3bbdacf0a67a3429c4fc4482c3528",
+      "size": 3014948
+    },
+    {
+      "path": "ui/placeholders/default_menu_bg.png",
+      "sha256": "50740e26a499afbee36057c121469838eac7309f02e2a7b4852d9d24e6ed89ae",
+      "size": 18912767
     },
     {
       "path": "ui/placeholders/default_none.png",
