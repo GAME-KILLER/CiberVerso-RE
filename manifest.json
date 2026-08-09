@@ -1,22 +1,7 @@
 {
   "version": "1.4.12",
-  "generatedAt": "2026-08-09T12:55:43.199Z",
+  "generatedAt": "2026-08-09T14:11:35.789Z",
   "files": [
-    {
-      "path": "default-game/ui/background.png",
-      "sha256": "1ed33bc4ecb76dfbab2b008fc3bcf35f4331040f6c057c7817a3271b72ca1928",
-      "size": 1651534
-    },
-    {
-      "path": "default-game/ui/card-verso.png",
-      "sha256": "fb71e4f636d89fd3e0e363dacf262ad5f34395fb0c4548a3b748d4bdec45b49d",
-      "size": 3524028
-    },
-    {
-      "path": "default-game/ui/loading-1.mp4",
-      "sha256": "d6d0146adbfe1f72dcb58d39a66556082cbfd9b09b15970512fbf7716b2f86a3",
-      "size": 74982178
-    },
     {
       "path": "fonts/Bring Race.otf",
       "sha256": "66288f0a47771f167f4a7acb2b58805c4cfaa1c713cf63702e2a2e48ffd58460",
@@ -138,24 +123,34 @@
       "size": 294
     },
     {
+      "path": "ui/ciberverso/background.webp",
+      "sha256": "7f5ab177cc3f86980223286725f92e8261edcc91a137dd296f4dfb083ed4e06b",
+      "size": 135570
+    },
+    {
+      "path": "ui/ciberverso/card-verso.webp",
+      "sha256": "1e311c8b950a2a853f3b441d2e2960fbb46135d66fd509a55aff026fc75e7ca0",
+      "size": 371884
+    },
+    {
       "path": "ui/criadores/Bozinho.jpg",
       "sha256": "833524ff5588d537ad82e001e16d3234379aa964fd1a9042d8e913f5b32dd5b1",
       "size": 17159
     },
     {
-      "path": "ui/criadores/Imperador.png",
-      "sha256": "44543bdf4714c84a62f84f20c0a67e25e90172bc62022eb0fe8d6b3ba9214613",
-      "size": 687081
+      "path": "ui/criadores/Imperador.webp",
+      "sha256": "fed8719a4f91d47faed2d4274e35e48537769784ccc5ee960b53247367190046",
+      "size": 53288
     },
     {
       "path": "ui/loading-screen/loading-1.mp4",
-      "sha256": "d6d0146adbfe1f72dcb58d39a66556082cbfd9b09b15970512fbf7716b2f86a3",
-      "size": 74982178
+      "sha256": "c1342b0c1bc2ca7d19ee784f2d4f68c93e0198785b580627d1a131c1ef2ad1a1",
+      "size": 11859935
     },
     {
       "path": "ui/loading-screen/loading-error.mp4",
-      "sha256": "d6e529081eb7625d5b0d8c223108b35be4cc6d1b564c743627efc50086b6782a",
-      "size": 17423895
+      "sha256": "59aa251695d1c4c602ae0d7477ed11d04824290b8d43999ea52dee089545d5e2",
+      "size": 1005467
     },
     {
       "path": "ui/menu-icons/icon_change_game.png",
@@ -193,14 +188,14 @@
       "size": 434
     },
     {
-      "path": "ui/placeholders/cyber.png",
-      "sha256": "19f4561051a5b8890909e4507589620c9fcefbe342f356638dd3a0cc26a3d0cf",
-      "size": 897612
+      "path": "ui/placeholders/cyber.webp",
+      "sha256": "c6d0ee6d74252e32c5778dfda8280ecaedaa962fee6aa95057a61a732279fb4a",
+      "size": 73828
     },
     {
-      "path": "ui/placeholders/default-card.gif",
-      "sha256": "f95cd740381be33afaa6a165463b288ad4f247a23b3cd6e2c24bf51f21932ecf",
-      "size": 73176080
+      "path": "ui/placeholders/default-card.webm",
+      "sha256": "1556b4ba594dfd5287e7d799d65e33aa27d0e1cc17d8fd4b8cb11ddf5a63f704",
+      "size": 4640931
     },
     {
       "path": "ui/placeholders/default_add.png",
@@ -208,9 +203,9 @@
       "size": 11102
     },
     {
-      "path": "ui/placeholders/default_classe.png",
-      "sha256": "96f7203b8d04a61ae57bfa9e6b6239b718d3bbdacf0a67a3429c4fc4482c3528",
-      "size": 3014948
+      "path": "ui/placeholders/default_classe.webp",
+      "sha256": "11acfd719617749dd547185aebd03eee17cf96386908073fd2e43612982343a6",
+      "size": 242340
     },
     {
       "path": "ui/placeholders/default_menu_bg.png",
@@ -223,9 +218,9 @@
       "size": 165
     },
     {
-      "path": "ui/placeholders/default_suporte.png",
-      "sha256": "32d9eca76bffb90695ad635b0828ae7c586d6c258ae5ad3e83c7abc6dbacc8ec",
-      "size": 359426
+      "path": "ui/placeholders/default_suporte.webp",
+      "sha256": "0a0d913f5de9933e46b6bc6d3c6eb5cca9032b75b6728d0b857d1929d87c151b",
+      "size": 45138
     },
     {
       "path": "ui/sounds/clique.mp3",
@@ -263,44 +258,44 @@
       "size": 38452
     },
     {
-      "path": "ui/status/buff.png",
-      "sha256": "2602ed474554062bdb202624d1fb54d0039a7ea90e1cc84e67c3d172e0d2f082",
-      "size": 16521
+      "path": "ui/status/buff.webp",
+      "sha256": "e2467f60c124579f9b8aea4377769719d4f0b141e7522d43b3e752c4ec1f69a5",
+      "size": 10668
     },
     {
-      "path": "ui/status/nerf.png",
-      "sha256": "58731e6dee5671641f8b5c349fc6574f6283cf2f83a8a372b69def785462cc82",
-      "size": 308665
+      "path": "ui/status/nerf.webp",
+      "sha256": "71a8b3369d7b84dc3aeffe8cec25f21f6c24b1b5db9e6ce14f518adbc15666cd",
+      "size": 84838
     },
     {
-      "path": "ui/status-icons/dark.png",
-      "sha256": "7ede8ae1a0bb981cf944ba4c5f52a16e163ec7f257a759d3f9d64cd80d2cc640",
-      "size": 598040
+      "path": "ui/status-icons/dark.webp",
+      "sha256": "4f0cc92433c6648eb08f8131f013ff817cc3de1535c762156f9f2389f50f2d8c",
+      "size": 229988
     },
     {
-      "path": "ui/status-icons/fire.png",
-      "sha256": "c21b6899ac0d893b4be008a05ca289553079950a8e4469f0ce1b263a7f4f78ec",
-      "size": 897192
+      "path": "ui/status-icons/fire.webp",
+      "sha256": "dc2534e0f314349d5c0c049b019b7132c2b31f45d351bb62bbe50f88bb50c42a",
+      "size": 193906
     },
     {
-      "path": "ui/status-icons/ice.png",
-      "sha256": "c750649c440f7f68be214a9ddd62f1b1b04cf4526fda1608a2d74a9de14b84c5",
-      "size": 1071419
+      "path": "ui/status-icons/ice.webp",
+      "sha256": "76ba2ed6cfdca431c76fa31a874f8d00d8e7472d81bf469b8c8db5e27d1cb308",
+      "size": 232944
     },
     {
-      "path": "ui/status-icons/lightning.png",
-      "sha256": "c5cc579c7a675be2bd9e04a0f0411088937cbf3aacd53e60e61550ffd015c94f",
-      "size": 444591
+      "path": "ui/status-icons/lightning.webp",
+      "sha256": "873d2b0ff95b3e40ce58030310a2dea57d893e047266f00aae3afbea7a625a95",
+      "size": 98936
     },
     {
-      "path": "ui/status-icons/physical.png",
-      "sha256": "877bf9c3ff3b7dc24832ec9c615e23a1446846a58fe2aa9f196f2ab57a7c9abe",
-      "size": 711323
+      "path": "ui/status-icons/physical.webp",
+      "sha256": "0c4e4a2a0883bd18934f7c5dfa62c9efcfd6e85b9adc407fd25735da399f197e",
+      "size": 200564
     },
     {
-      "path": "ui/status-icons/void.png",
-      "sha256": "cda15b82d46e58143bb5fa26ae9cc63789036f021f5476d0d1a8b74746354263",
-      "size": 1457523
+      "path": "ui/status-icons/void.webp",
+      "sha256": "440a71a3933976a3721031ca4fa7b3212eb1baed751521597f356ed74b021e0d",
+      "size": 293194
     }
   ]
 }
