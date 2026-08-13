@@ -1,6 +1,6 @@
 {
-  "version": "1.4.12",
-  "generatedAt": "2026-08-09T14:11:35.789Z",
+  "version": "1.0.0",
+  "generatedAt": "2026-08-13T16:24:02.847Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -133,14 +133,19 @@
       "size": 371884
     },
     {
-      "path": "ui/criadores/Bozinho.jpg",
-      "sha256": "833524ff5588d537ad82e001e16d3234379aa964fd1a9042d8e913f5b32dd5b1",
-      "size": 17159
+      "path": "ui/creators/bozinho.webp",
+      "sha256": "32c17455aa0b8fa7e8e4f5f98d933300c17e784a01b247026af0d9291082aff0",
+      "size": 25788
     },
     {
-      "path": "ui/criadores/Imperador.webp",
-      "sha256": "fed8719a4f91d47faed2d4274e35e48537769784ccc5ee960b53247367190046",
-      "size": 53288
+      "path": "ui/creators/creators_banner.webp",
+      "sha256": "2c6f8599d3ad9c8dd08b61499c362b40c10da61e64d36dec46b81da83c10daeb",
+      "size": 1066972
+    },
+    {
+      "path": "ui/creators/imperador.webp",
+      "sha256": "828110b90a866cb9975ce8ff59c695acd28fbefa29a6b4f19ff43a49785acb64",
+      "size": 22144
     },
     {
       "path": "ui/loading-screen/loading-1.mp4",
@@ -151,6 +156,31 @@
       "path": "ui/loading-screen/loading-error.mp4",
       "sha256": "59aa251695d1c4c602ae0d7477ed11d04824290b8d43999ea52dee089545d5e2",
       "size": 1005467
+    },
+    {
+      "path": "ui/menu-icons/claude_ai_logo.png",
+      "sha256": "6555407ca005484ffb0758d67bbe0f2e37e47a4f41e86daa75bbfb9a436ef898",
+      "size": 40064
+    },
+    {
+      "path": "ui/menu-icons/claude_ai_logo.webp",
+      "sha256": "6020c4b2abe1a4e07eb0775244d4294f4f1c37b47a010776d57156fd59f0ca7d",
+      "size": 25322
+    },
+    {
+      "path": "ui/menu-icons/github-badge.svg",
+      "sha256": "11bf32cad0ff0cd4050394715a4dcb991cab9e8a50586fb64b19e10fa04bccb8",
+      "size": 1131
+    },
+    {
+      "path": "ui/menu-icons/github.svg",
+      "sha256": "82cec2f1692229f8e6170f8903a7812c28abfff93d4a0331f7c8aa55b7a24751",
+      "size": 817
+    },
+    {
+      "path": "ui/menu-icons/google_gemini_logo.webp",
+      "sha256": "aed60e1b2c16bf2d35b5c2060d15f871b43878e05a664b178ae055b78a1f0b5f",
+      "size": 49478
     },
     {
       "path": "ui/menu-icons/icon_change_game.png",
@@ -178,14 +208,49 @@
       "size": 2087
     },
     {
+      "path": "ui/menu-icons/icon_next.svg",
+      "sha256": "c75dfeaecaa5160234f4034d2af374f23c9b7ccba42b72e4636f8a22c1d0ac1f",
+      "size": 206
+    },
+    {
+      "path": "ui/menu-icons/icon_note.svg",
+      "sha256": "39929d2b0166ef02cac31214324215a1b1aa7db2df70eb07ed5aad681ae78840",
+      "size": 245
+    },
+    {
+      "path": "ui/menu-icons/icon_pause.svg",
+      "sha256": "889dfa0928daa41f45d9967a0ff3f982501c30a85e97b0d823707ca0a314ca3d",
+      "size": 222
+    },
+    {
+      "path": "ui/menu-icons/icon_play.svg",
+      "sha256": "1724522b67967e41a0faeefddcaa8ab855ce63436c517e3a3d985040d13477d2",
+      "size": 146
+    },
+    {
+      "path": "ui/menu-icons/icon_prev.svg",
+      "sha256": "997021a76b938e1d6ad79f8015f32f01c213dfd0712e5b90f5fc8c36a9c0c2a3",
+      "size": 202
+    },
+    {
+      "path": "ui/menu-icons/icon_shuffle.svg",
+      "sha256": "f4f375ff30fe096a35b734f1e371edaf46be2131a0073ae005dc105df1930a6a",
+      "size": 286
+    },
+    {
+      "path": "ui/menu-icons/icon_shuffle_on.svg",
+      "sha256": "1d25d964adc320e244ecfc449f98a597d880e50ec4f0bb07df6ae0b16d5b9391",
+      "size": 286
+    },
+    {
       "path": "ui/menu-icons/icon_swithdeck.png",
       "sha256": "249a540d00bd94f3c4d36e3762c2608d93fc98680014880d2e7daed6a0b21b10",
       "size": 10060
     },
     {
-      "path": "ui/menu-icons/yt-logo.svg",
-      "sha256": "23d3f44dfab38f98c3df990ca38dd998369645b24352e154f745c503ca245582",
-      "size": 434
+      "path": "ui/menu-icons/youtube_logo.svg",
+      "sha256": "eca2edda69802e8cc0ee9f291ad9cbebf15d6aa45035f691d2c7dc0bcd4cc4fa",
+      "size": 457
     },
     {
       "path": "ui/placeholders/cyber.webp",
