@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-08-13T16:24:02.847Z",
+  "generatedAt": "2026-08-14T00:03:17.554Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -284,8 +284,8 @@
     },
     {
       "path": "ui/placeholders/default_suporte.webp",
-      "sha256": "0a0d913f5de9933e46b6bc6d3c6eb5cca9032b75b6728d0b857d1929d87c151b",
-      "size": 45138
+      "sha256": "b09ab4785978e8172d5552ccd5354f5396e18f1bfd571c1c5ab8d1172afbb121",
+      "size": 106318
     },
     {
       "path": "ui/sounds/clique.mp3",
