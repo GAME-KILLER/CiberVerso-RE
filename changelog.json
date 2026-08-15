@@ -1,6 +1,184 @@
 {
   "versions": [
     {
+      "version": "1.4.14",
+      "date": "2026-08-15",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Novo menu principal holográfico — projeção na parede, efeitos neon ao passar o mouse e logo animado."
+        },
+        {
+          "type": "new",
+          "text": "Novo HUD de batalha (Neon Drive) — barras de HP com visual angular e brilho animado, suporte hexagonal com HP interno, QTEs hexagonais e espelhamento do jogador 2."
+        },
+        {
+          "type": "new",
+          "text": "Grid de cartas em fileira única com rolagem suave e jogadores lado a lado."
+        },
+        {
+          "type": "new",
+          "text": "Nova animação de abertura de carta — a carta voa da base até o centro do jogo girando em 3D."
+        },
+        {
+          "type": "new",
+          "text": "Painel da carta redesenhado — painel inferior com o valor exibido no canto direito e reflexo de luz sobre a carta."
+        },
+        {
+          "type": "new",
+          "text": "Meia-roda de cartas — ao clicar em um slot vazio, uma roda radial aparece para escolher a carta, com pulso, fade e rolagem suave."
+        },
+        {
+          "type": "new",
+          "text": "Carta vai direto ao slot — a carta escolhida vai direto para o slot clicado, sem tela de substituição."
+        },
+        {
+          "type": "new",
+          "text": "Novo efeito de Poder Elemental (dano por elemento) nas cartas de dano."
+        },
+        {
+          "type": "new",
+          "text": "Bônus de cura recebida (porcentagem) nas cartas de cura."
+        },
+        {
+          "type": "new",
+          "text": "Cartas QTE podem ser abertas pelo chat (/game abrir) sem depender do GM."
+        },
+        {
+          "type": "new",
+          "text": "Cartas de buff/bloqueio usadas do grid são seguradas automaticamente e não são consumidas ao clicar (ativam só no combate)."
+        },
+        {
+          "type": "new",
+          "text": "Novo sistema de atualização — changelog na tela de carregamento, download de assets por delta (só o que mudou) e aviso para reiniciar quando houver atualização."
+        },
+        {
+          "type": "new",
+          "text": "Aba Som redesenhada — player com 2 colunas, visualizer animado e botão repetir."
+        },
+        {
+          "type": "new",
+          "text": "Nova aba Sobre no menu de configurações — créditos, ferramentas, I.As e links externos."
+        },
+        {
+          "type": "new",
+          "text": "Config menu reformulado — abas centralizadas com setas de navegação estilo tecla; botão de fechar removido (ESC fecha)."
+        },
+        {
+          "type": "new",
+          "text": "Auto-fechamento do painel da carta — novo timer configurável na aba Geral."
+        },
+        {
+          "type": "new",
+          "text": "Aba Live turbinada — feedback no chat, thumbnail, seções colapsáveis e múltiplos comandos /game na mesma mensagem."
+        },
+        {
+          "type": "new",
+          "text": "Notificações de efeitos com fila e cor dinâmica por tipo de efeito."
+        },
+        {
+          "type": "new",
+          "text": "Aba Mídia do editor de cartas — vídeo expande o player abaixo do item ao clicar."
+        },
+        {
+          "type": "new",
+          "text": "Novo layout do seletor/editor de jogos — labels sobre a base do bloco e troca de imagem sem botão ×."
+        },
+        {
+          "type": "new",
+          "text": "Janela em 16:9 — proporção travada e escalável (sem distorção ao redimensionar) e abertura sem flash branco."
+        },
+        {
+          "type": "new",
+          "text": "Divisões do suporte configuráveis — número de segmentos do HP do suporte ajustável."
+        },
+        {
+          "type": "improved",
+          "text": "Pause menu — ícones reais, botões com tamanho padrão e texto de dica removido."
+        },
+        {
+          "type": "improved",
+          "text": "Logo global simplificado com animação de zoom na entrada."
+        },
+        {
+          "type": "improved",
+          "text": "Textos das configurações mais claros — labels simplificados e campo Parry com stepper (+/−)."
+        },
+        {
+          "type": "improved",
+          "text": "Changelog da tela de carregamento redesenhado com ícones e cores por tipo de mudança."
+        },
+        {
+          "type": "improved",
+          "text": "Brilho animado passando sobre a barra de HP quando ela muda e melhorias de performance no combate."
+        },
+        {
+          "type": "fixed",
+          "text": "HP do suporte não mudava ao aplicar SP — corrigido."
+        },
+        {
+          "type": "fixed",
+          "text": "Parry agora anula também o SP, não só o dano."
+        },
+        {
+          "type": "fixed",
+          "text": "Carta de buff/bloqueio usada do grid não era segurada — corrigido."
+        },
+        {
+          "type": "fixed",
+          "text": "Descrição de carta anterior não era limpa ao abrir carta interativa — corrigido."
+        },
+        {
+          "type": "fixed",
+          "text": "Painel da carta fechava de forma errada (ESC duplo e auto-fechamento indevido) — corrigido."
+        },
+        {
+          "type": "fixed",
+          "text": "Painel da carta agora alinhado exatamente com o grid de cartas."
+        },
+        {
+          "type": "fixed",
+          "text": "Jogador 2 — corrigidos espelhamento, sobreposição de nome e angulação do HP."
+        },
+        {
+          "type": "fixed",
+          "text": "Compatibilidade com backups antigos (pasta de assets em maiúsculas) ao trocar de jogo."
+        },
+        {
+          "type": "fixed",
+          "text": "Sistema de live — corrigidos bugs de leitura do chat (YouTube/StreamElements)."
+        },
+        {
+          "type": "fixed",
+          "text": "Roda de cartas — corrigida a rotação das cartas (tangentes ao círculo) e o fechamento só após guardar a carta com sucesso."
+        },
+        {
+          "type": "fixed",
+          "text": "Efeito Reduzir em cartas de buff — agora válido e tratado corretamente."
+        },
+        {
+          "type": "fixed",
+          "text": "Aba Mídia do editor — corrigidos layout e playback dos vídeos."
+        },
+        {
+          "type": "fixed",
+          "text": "Hover no Overview de cartas — corrigida regressão."
+        },
+        {
+          "type": "removed",
+          "text": "Categoria Ultimate removida das cartas (editor e jogabilidade)."
+        },
+        {
+          "type": "removed",
+          "text": "Cores customizáveis de jogadores removidas — cores agora são fixas."
+        },
+        {
+          "type": "removed",
+          "text": "Vídeo pesado de carregamento removido (302MB) — downloads e inicialização mais rápidos."
+        }
+      ]
+    },
+    {
       "version": "1.4.12",
       "date": "2026-06-13",
       "changes": [
