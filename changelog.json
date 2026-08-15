@@ -1,6 +1,20 @@
 {
   "versions": [
     {
+      "version": "1.4.15",
+      "date": "2026-08-15",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Atualizações mais discretas — erros na checagem de atualizações e assets não exibem mais notificações, ficam apenas registrados no console."
+        },
+        {
+          "type": "improved",
+          "text": "Ajustes visuais no menu de configurações — destaque roxo e valores de faixa (range) mais legíveis."
+        }
+      ]
+    },
+    {
       "version": "1.4.14",
       "date": "2026-08-15",
       "changes": [
