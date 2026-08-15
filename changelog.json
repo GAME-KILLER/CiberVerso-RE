@@ -1,6 +1,36 @@
 {
   "versions": [
     {
+      "version": "1.4.16",
+      "date": "2026-08-15",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Deck — comando de trocar deck liberado para todos os jogadores do chat (removida trava de permissão streamer/moderador que a biblioteca de chat não suporta)."
+        },
+        {
+          "type": "fixed",
+          "text": "Sistema de suporte — estado de suportes e portas resetado ao voltar ao menu (vazava entre partidas); /game convidar bloqueado para suportes; /game apoiar bloqueado para líderes registrados."
+        },
+        {
+          "type": "fixed",
+          "text": "Comando /game suporte falhava fora do lobby — agora valida jogador real do jogo e busca por nome com acentos normalizados (ex.: orquidea → Orquídea)."
+        },
+        {
+          "type": "fixed",
+          "text": "Orquestrador — /game opcao sempre falhava (alvos não definidos); opção interativa agora é respondida pelo atacante e cartas QTE usadas via /game usar slot N funcionam."
+        },
+        {
+          "type": "fixed",
+          "text": "HUD — slots QTE do modern HUD agora escalam com a resolução (não ficam mais desproporcionais em TVs)."
+        },
+        {
+          "type": "fixed",
+          "text": "Painel da carta (UCM) em TVs — carta não é mais cortada e descrição longa não empurra mais as opções para fora da tela."
+        }
+      ]
+    },
+    {
       "version": "1.4.15",
       "date": "2026-08-15",
       "changes": [
