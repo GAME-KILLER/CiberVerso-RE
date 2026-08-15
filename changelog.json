@@ -1,6 +1,20 @@
 {
   "versions": [
     {
+      "version": "1.4.17",
+      "date": "2026-08-15",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Janela não abria em tela cheia no Windows — transparência no boot impedia fullscreen real; janela volta a abrir fullscreen sem flash branco."
+        },
+        {
+          "type": "fixed",
+          "text": "Modo live — tela piscava em loop ao desconectar o chat do YouTube (transição de desconexão disparava repetidamente); agora a transição toca uma única vez e o polling do chat é encerrado no erro."
+        }
+      ]
+    },
+    {
       "version": "1.4.16",
       "date": "2026-08-15",
       "changes": [
