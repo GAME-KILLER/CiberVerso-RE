@@ -1,6 +1,32 @@
 {
   "versions": [
     {
+      "version": "1.4.18",
+      "date": "2026-08-15",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Modo live — carta aberta via /game abrir com auto-close ativo era guardada sempre no slot do player1; agora vai para o slot do jogador da vez (e respeita o handSlots configurado)."
+        },
+        {
+          "type": "fixed",
+          "text": "Barra de tempo/turno/deck sobrepunha as barras de HP em telas estreitas (< ~1600px) e no modo 4p — espaço reservado no topo da arena."
+        },
+        {
+          "type": "new",
+          "text": "Ícones de status maiores (legíveis a partir de 720p) e sombra gradiente lateral na cor de cada jogador (P1 vermelho à esquerda, P2 azul à direita)."
+        },
+        {
+          "type": "new",
+          "text": "Borda na cor do jogador nos suportes hexagonais (P1 vermelho, P2 azul)."
+        },
+        {
+          "type": "fixed",
+          "text": "Placeholder de suporte (default_suporte.webp) sem canal alfa — fundo sólido na cor do wrapper."
+        }
+      ]
+    },
+    {
       "version": "1.4.17",
       "date": "2026-08-15",
       "changes": [
