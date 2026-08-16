@@ -1,6 +1,40 @@
 {
   "versions": [
     {
+      "version": "1.4.19",
+      "date": "2026-08-16",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Design system unificado com base 720p: tokens globais (tokens.css) para tipografia (escala clamp 720p–4K), cores, espaçamento, raios, sombras e z-index; textos espalhados, tokens mortos e duplicatas removidos."
+        },
+        {
+          "type": "new",
+          "text": "HUD dos jogadores em header de largura total no topo: [HUD P1] barra de turno/tempo/deck [HUD P2] em fluxo, sem sobrepor o cenário; a arena se ajusta ao grid de cartas em todas as resoluções."
+        },
+        {
+          "type": "improved",
+          "text": "Painel da carta (UCM) reformulado: actionbar removida, carta ocupa toda a coluna esquerda e a descrição fica à esquerda com opções/QTE ao lado direito — mais espaço e menos sobreposição em 720p."
+        },
+        {
+          "type": "improved",
+          "text": "Menu holográfico e roda de cartas proporcionais em todas as resoluções (720p–4K)."
+        },
+        {
+          "type": "fixed",
+          "text": "Update do jogo + reparo de assets no mesmo boot: um único reinício instala o jogo e aplica os reparos (antes o reinício dos assets abandonava o download e o app achava que já estava atualizado)."
+        },
+        {
+          "type": "fixed",
+          "text": "Loading continuava após o update ficar pronto e o changelog não abria durante o download do core — agora a loading fica parada no menu de reinício e o changelog abre quando o download começa."
+        },
+        {
+          "type": "fixed",
+          "text": "Battle-stage estourava o players-area com o novo header e o grid de cartas cobria a mão/slots — a arena agora preenche exatamente o espaço entre o header e o grid."
+        }
+      ]
+    },
+    {
       "version": "1.4.18",
       "date": "2026-08-15",
       "changes": [
