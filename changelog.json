@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "1.4.20",
+      "date": "2026-08-17",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Editor de cartas reformulado: header removido (sem título card_xxx, sem botão ×, sem pill), seletor de tipo em badges coloridos, indicador de alterações não salvas no botão Salvar (dot + desabilitado até haver mudança), busca por nome/id no grid, contagem de cartas por tipo e por deck, Nova Carta abre o editor direto e toast ao duplicar."
+        },
+        {
+          "type": "new",
+          "text": "Abas do editor nunca somem: quando o tipo de carta não usa a aba, ela fica desativada com tooltip explicativo (Efeitos para QTE, Opções fora de QTE/Interativas) — a barra fica estável ao trocar o tipo."
+        },
+        {
+          "type": "new",
+          "text": "Aba Mídia redesenhada: bloco full com a mídia como fundo (frame do vídeo / ondas de áudio), play centralizado, label + upload/remover na parte inferior; o vídeo toca dentro do próprio bloco, sem limite de tempo (o usuário pausa)."
+        },
+        {
+          "type": "improved",
+          "text": "Módulo compartilhado de mídia (media-tile) reutilizado pelos editores de cartas e personagens; uploads/remoções de mídia agora persistem apenas no Salvar/autosave (antes salvavam na hora) — Cancelar descarta junto com os campos."
+        },
+        {
+          "type": "improved",
+          "text": "Fechamento do editor sem ESC: clique fora do painel = autosave, Cancelar = descarte (com confirmação). Campos que não se aplicam ao tipo somem com o label (sem labels órfãos) e o Poder Elemental % só aparece com elemento selecionado."
+        },
+        {
+          "type": "fixed",
+          "text": "Erro ao abrir o editor de cartas na aba Mídia (binding do languageManager.translate perdido no módulo de mídia)."
+        },
+        {
+          "type": "fixed",
+          "text": "Remover/atualizar uma mídia em reprodução mantinha a animação do bloco rodando — a reprodução agora encerra ao mudar o estado."
+        },
+        {
+          "type": "fixed",
+          "text": "Texto secundário quase invisível no editor (--cm-tx-sub) ganhou contraste legível."
+        }
+      ]
+    },
+    {
       "version": "1.4.19",
       "date": "2026-08-16",
       "changes": [
