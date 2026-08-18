@@ -1,6 +1,20 @@
 {
   "versions": [
     {
+      "version": "1.4.21",
+      "date": "2026-08-18",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Nova opção de cooldown para cartas em slots e padronização do campo duration."
+        },
+        {
+          "type": "fixed",
+          "text": "Atalhos na aba controles agora mostram label simples (B, SHIFT, M, etc)."
+        }
+      ]
+    },
+    {
       "version": "1.4.20",
       "date": "2026-08-17",
       "changes": [
