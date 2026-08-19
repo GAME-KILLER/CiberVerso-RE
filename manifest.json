@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-08-18T14:21:45.275Z",
+  "generatedAt": "2026-08-19T15:07:14.592Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -356,6 +356,11 @@
       "path": "ui/status-icons/physical.webp",
       "sha256": "0c4e4a2a0883bd18934f7c5dfa62c9efcfd6e85b9adc407fd25735da399f197e",
       "size": 200564
+    },
+    {
+      "path": "ui/status-icons/poison.svg",
+      "sha256": "ff52a64df86077ae00d67985a2de5f111abf141570cdbd6bd634225dfa878d4d",
+      "size": 1661
     },
     {
       "path": "ui/status-icons/void.webp",

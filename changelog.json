@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "1.4.22",
+      "date": "2026-08-19",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Status de veneno (poison) dividido em dois tipos: valor fixo (poison-flat) e porcentagem do HP máximo (poison-percent), com ícone SVG neon e ajustes no editor de status."
+        },
+        {
+          "type": "fixed",
+          "text": "Correções de tradução e prioridades no sistema de status; rastreadores de QTE removidos para simplificar o fluxo."
+        },
+        {
+          "type": "improved",
+          "text": "Editor de status atualizado com chaves de tradução completas e referência ao novo ícone de veneno."
+        }
+      ]
+    },
+    {
       "version": "1.4.21",
       "date": "2026-08-18",
       "changes": [
