@@ -2,7 +2,7 @@
   "versions": [
     {
       "version": "1.4.22",
-      "date": "2026-08-19",
+      "date": "2026-08-20",
       "changes": [
         {
           "type": "new",
@@ -10,11 +10,15 @@
         },
         {
           "type": "fixed",
-          "text": "Correções de tradução e prioridades no sistema de status; rastreadores de QTE removidos para simplificar o fluxo."
+          "text": "Rastreadores de QTE removidos para simplificar o fluxo de jogo."
         },
         {
           "type": "improved",
           "text": "Editor de status atualizado com chaves de tradução completas e referência ao novo ícone de veneno."
+        },
+        {
+          "type": "improved",
+          "text": "Respostas do orquestrador no chat revisadas para maior clareza."
         }
       ]
     },
