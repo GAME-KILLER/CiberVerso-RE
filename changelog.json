@@ -2,11 +2,47 @@
   "versions": [
     {
       "version": "1.4.23",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "changes": [
+        {
+          "type": "new",
+          "text": "Badges e deck tabs substituídos por dropdowns minimalistas no header das abas Cartas e Personagens."
+        },
+        {
+          "type": "new",
+          "text": "Seta de direção (+/-) no componente numberInput para controlar sinal do spValor (▲ verde = adiciona, ▼ vermelho = subtrai)."
+        },
+        {
+          "type": "improved",
+          "text": "Volume SFX e Volume Vídeo movidos da aba Geral para aba Som."
+        },
+        {
+          "type": "improved",
+          "text": "Form-select-inline redesenhado com underline e indicador ▾ minimalista."
+        },
         {
           "type": "improved",
           "text": "Respostas do orquestrador no chat revisadas para maior clareza."
+        },
+        {
+          "type": "fixed",
+          "text": "Filtro 'Todos os Tipos' não mostrava cartas ao abrir a aba Cartas."
+        },
+        {
+          "type": "fixed",
+          "text": "Dropdowns saindo da viewport — posicionamento inteligente adicionado."
+        },
+        {
+          "type": "fixed",
+          "text": "Contadores removidos dos dropdowns para visual mais limpo."
+        },
+        {
+          "type": "removed",
+          "text": "initialSupportHP redundante removido — supportHP agora começa sempre no máximo definido."
+        },
+        {
+          "type": "removed",
+          "text": "SVG select-arrow removido do repo de assets (usa unicode ▾)."
         }
       ]
     },

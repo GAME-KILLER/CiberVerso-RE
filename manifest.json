@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-08-20T17:12:32.241Z",
+  "generatedAt": "2026-08-21T14:28:48.434Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -156,11 +156,6 @@
       "path": "ui/loading-screen/loading-error.mp4",
       "sha256": "59aa251695d1c4c602ae0d7477ed11d04824290b8d43999ea52dee089545d5e2",
       "size": 1005467
-    },
-    {
-      "path": "ui/menu-icons/claude_ai_logo.png",
-      "sha256": "6555407ca005484ffb0758d67bbe0f2e37e47a4f41e86daa75bbfb9a436ef898",
-      "size": 40064
     },
     {
       "path": "ui/menu-icons/claude_ai_logo.webp",
