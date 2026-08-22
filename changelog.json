@@ -1,6 +1,60 @@
 {
   "versions": [
     {
+      "version": "1.4.30",
+      "date": "2026-08-22",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Window bar redesenhada com estilo Neon Gradient Spectrum — spectrum line purple→blue→cyan no topo, glyph ◆ cyan no brand, gradient text no título."
+        },
+        {
+          "type": "new",
+          "text": "Sistema de notificações redesenhado com design Glow Pill — ícones SVG, animação expand (bubble pop → pill expand), animação collapse reversa na saída."
+        },
+        {
+          "type": "new",
+          "text": "7 ícones SVG para notificações: info, success, warning, error, question, status, edit (assets/ui/menu-icons/)."
+        },
+        {
+          "type": "new",
+          "text": "Notificações de conexão/desconexão do YouTube — success ao conectar, error ao desconectar."
+        },
+        {
+          "type": "improved",
+          "text": "Loading screen substituída por cyberpunk-citadel (webm VP9 4K, 30s) — fundo fixo, sem randomização."
+        },
+        {
+          "type": "improved",
+          "text": "Ordem de boot reorganizada — assetResolver inicializado antes do background e config step."
+        },
+        {
+          "type": "removed",
+          "text": "Sistema de transições de live removido (yt-connect, yt-disconnect) — substituído por notificações."
+        },
+        {
+          "type": "removed",
+          "text": "Randomização de background na loading (_pickRandomBackground) removida — BG fixo loading-1."
+        },
+        {
+          "type": "removed",
+          "text": "youtube_logo-loader.js removido (código morto)."
+        },
+        {
+          "type": "fixed",
+          "text": "Ícones SVG das notificações não apareciam — assetResolver agora é resolvido lazy no initialize()."
+        },
+        {
+          "type": "fixed",
+          "text": "Sombra piscando atrás das notificações — pulseGlow removido."
+        },
+        {
+          "type": "fixed",
+          "text": "Clique na notificação fechava mesmo sem ícone — dismiss agora é apenas via clique no ícone."
+        }
+      ]
+    },
+    {
       "version": "1.4.23",
       "date": "2026-08-21",
       "changes": [
