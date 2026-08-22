@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-08-22T15:35:05.848Z",
+  "generatedAt": "2026-08-22T22:03:00.340Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -183,24 +183,24 @@
       "size": 2433
     },
     {
-      "path": "ui/menu-icons/icon_changelog.png",
-      "sha256": "2c2fae2722d9cb7f519a0e45fa94f27aec6d808b5996cf13d0121317f310f195",
-      "size": 9608
+      "path": "ui/menu-icons/icon_changelog.svg",
+      "sha256": "a6fa0b376b5e6beb508f73784a4e87559be621cf26fcf1874cbe1ca1c1735c3c",
+      "size": 397
     },
     {
-      "path": "ui/menu-icons/icon_config.png",
-      "sha256": "29205ecc6020fa4a0a631d5457a5add346ca870321e84fb8fbeeb508ad89c7a4",
-      "size": 10522
+      "path": "ui/menu-icons/icon_config.svg",
+      "sha256": "a7488c381ea80e01b377d673aa0a105e14a61d98b017b5fc302ef50098602c36",
+      "size": 840
     },
     {
-      "path": "ui/menu-icons/icon_debug.png",
-      "sha256": "ff68dd28567b5c736afdb7426f5731417cd04eb08c1b951cbaca2f2451a70357",
-      "size": 7518
+      "path": "ui/menu-icons/icon_debug.svg",
+      "sha256": "9d240c4d331337dc945b339ec56dbde7079ac4b49388a88ba630ab73509eb8f0",
+      "size": 325
     },
     {
-      "path": "ui/menu-icons/icon_exit.png",
-      "sha256": "fbb0ad8209ed23cd3957c8b18af58fe9bda785f9b90b7d1c21213562dc053803",
-      "size": 2087
+      "path": "ui/menu-icons/icon_exit.svg",
+      "sha256": "1a2c5ab7e2ae83179bc41d951e913569c9854b4a38677e53c1a4ab3604b2c938",
+      "size": 309
     },
     {
       "path": "ui/menu-icons/icon_next.svg",
@@ -219,8 +219,8 @@
     },
     {
       "path": "ui/menu-icons/icon_play.svg",
-      "sha256": "1724522b67967e41a0faeefddcaa8ab855ce63436c517e3a3d985040d13477d2",
-      "size": 146
+      "sha256": "2bbb668bc14bbcde402c61c17a360f1274f28de1b7d935e09f7ff5758204f1d8",
+      "size": 217
     },
     {
       "path": "ui/menu-icons/icon_prev.svg",
