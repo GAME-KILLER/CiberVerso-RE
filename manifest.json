@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-08-21T14:28:48.434Z",
+  "generatedAt": "2026-08-22T15:35:05.848Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -148,14 +148,14 @@
       "size": 22144
     },
     {
-      "path": "ui/loading-screen/loading-1.mp4",
-      "sha256": "c1342b0c1bc2ca7d19ee784f2d4f68c93e0198785b580627d1a131c1ef2ad1a1",
-      "size": 11859935
+      "path": "ui/loading-screen/loading-1.webm",
+      "sha256": "b5102dd50f7eb3a61000f81941b776a88eaf7751db0c3cdf701e2fe641085e8d",
+      "size": 42962978
     },
     {
-      "path": "ui/loading-screen/loading-error.mp4",
-      "sha256": "59aa251695d1c4c602ae0d7477ed11d04824290b8d43999ea52dee089545d5e2",
-      "size": 1005467
+      "path": "ui/loading-screen/loading-error.webm",
+      "sha256": "b5102dd50f7eb3a61000f81941b776a88eaf7751db0c3cdf701e2fe641085e8d",
+      "size": 42962978
     },
     {
       "path": "ui/menu-icons/claude_ai_logo.webp",
@@ -241,6 +241,41 @@
       "path": "ui/menu-icons/icon_swithdeck.png",
       "sha256": "249a540d00bd94f3c4d36e3762c2608d93fc98680014880d2e7daed6a0b21b10",
       "size": 10060
+    },
+    {
+      "path": "ui/menu-icons/notif-edit.svg",
+      "sha256": "755af1299aa29af1f0118953fc0bce9e2b2b8e1007fbfc1895f0a8a964b4290a",
+      "size": 297
+    },
+    {
+      "path": "ui/menu-icons/notif-error.svg",
+      "sha256": "3e2a01edaa6777b199f6ed98e9b4bdb93bdd8c756d20cb6c35aaab11551655fa",
+      "size": 266
+    },
+    {
+      "path": "ui/menu-icons/notif-info.svg",
+      "sha256": "c5ace413d17f82bd124eeb884303aec22f8d7b93bc53a2c02ff41a886ba61eda",
+      "size": 271
+    },
+    {
+      "path": "ui/menu-icons/notif-question.svg",
+      "sha256": "ce28bee7ebe89fa0ea50caaa2a2f879218c2549b24fa0beb3e94ad15140818ad",
+      "size": 282
+    },
+    {
+      "path": "ui/menu-icons/notif-status.svg",
+      "sha256": "04e07dc22cf45fce4cd4e5944721683fabcbdc196f65599da20589c1455277f6",
+      "size": 192
+    },
+    {
+      "path": "ui/menu-icons/notif-success.svg",
+      "sha256": "100c7ae5a147e1f483a4b6c57fb5f601d9367d2a826da71af40847ca849292bf",
+      "size": 248
+    },
+    {
+      "path": "ui/menu-icons/notif-warning.svg",
+      "sha256": "cb69b7934802151eaa878999e6fdd6c95d2fc43f5cb5e7ddadd2954bdad2a68a",
+      "size": 340
     },
     {
       "path": "ui/menu-icons/youtube_logo.svg",
