@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "1.4.31",
+      "date": "2026-08-22",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Notificações de input agora renderizam botões Confirmar/Cancelar — condição era bloqueada por isQuestion."
+        },
+        {
+          "type": "fixed",
+          "text": "Notificações não recebiam cliques — pointer-events: none no container bloqueava input, botões e ícone."
+        },
+        {
+          "type": "fixed",
+          "text": "Variante input sem estilo — notification-variant-input não existia no CSS, adicionado --np-color cyan."
+        },
+        {
+          "type": "new",
+          "text": "Menu modal redesenhado com Glass Panel — backdrop blur, A2 Slide Up, Stagger nos botões, Glow Line."
+        },
+        {
+          "type": "improved",
+          "text": "Título do menu com gradiente cyan→purple (background-clip text) — S2 Gradient."
+        },
+        {
+          "type": "improved",
+          "text": "Botão primário com gradiente cyan→purple + glow hover (28px + scale 1.02) — S6 Glow Hover."
+        },
+        {
+          "type": "improved",
+          "text": "Botões secundários com fundo accent sutil (V2) — herdam cor do tema, não mais cinza genérico."
+        },
+        {
+          "type": "improved",
+          "text": "Ícones do pause menu atualizados para SVGs Feather (config, debug, changelog, exit) — removidos PNGs antigos."
+        }
+      ]
+    },
+    {
       "version": "1.4.30",
       "date": "2026-08-22",
       "changes": [
