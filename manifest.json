@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-08-22T22:03:00.340Z",
+  "generatedAt": "2026-08-23T16:50:38.302Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -318,14 +318,19 @@
       "size": 59530
     },
     {
-      "path": "ui/sounds/clique.mp3",
+      "path": "ui/sounds/gameplay/clique.mp3",
       "sha256": "ad9db9273d04bcbcf6359b31b84c3dd4915d18ca63678e3b2233d2e85cd3730c",
       "size": 26326
     },
     {
-      "path": "ui/sounds/gameplay/critico.mp3",
-      "sha256": "b87b04093ad14efe1028fa6a334d6bd93f39effd4150b3e26e14033acf985a31",
-      "size": 19639
+      "path": "ui/sounds/gameplay/critical.mp3",
+      "sha256": "2e4742e14585772e8f0c2ea0834150df95f0c973f97b540a88370e109b0135e5",
+      "size": 50688
+    },
+    {
+      "path": "ui/sounds/gameplay/live_pop.mp3",
+      "sha256": "6d0369350e1e0d5c5c1bb5e487df5d10b36d9d2d142b68b3fa9572f7acccb0ec",
+      "size": 5246
     },
     {
       "path": "ui/sounds/gameplay/parry.mp3",
@@ -333,9 +338,9 @@
       "size": 16856
     },
     {
-      "path": "ui/sounds/live_pop.mp3",
-      "sha256": "6d0369350e1e0d5c5c1bb5e487df5d10b36d9d2d142b68b3fa9572f7acccb0ec",
-      "size": 5246
+      "path": "ui/sounds/gameplay/virar_carta.mp3",
+      "sha256": "64c4ea6f62da8f7f7e05b0c47dd43276bdde692af755daec87c75fbebf64dbd2",
+      "size": 38452
     },
     {
       "path": "ui/sounds/theme/Lobby_theme.mp3",
@@ -346,11 +351,6 @@
       "path": "ui/sounds/theme/Tema_CiberVerso.mp3",
       "sha256": "420f9b263097624feaa5d823f3ec002d41d80e247766162a523203b9b9619bf5",
       "size": 6051824
-    },
-    {
-      "path": "ui/sounds/virar_carta.mp3",
-      "sha256": "64c4ea6f62da8f7f7e05b0c47dd43276bdde692af755daec87c75fbebf64dbd2",
-      "size": 38452
     },
     {
       "path": "ui/status/buff.webp",
