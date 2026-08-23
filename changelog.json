@@ -1,6 +1,60 @@
 {
   "versions": [
     {
+      "version": "1.4.32",
+      "date": "2026-08-23",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Critical slash — corte diagonal na tela com screen shake, sparks e glow quando dano dobrado é aplicado."
+        },
+        {
+          "type": "new",
+          "text": "Parry-clash redesenhado — texto PARRY voa da direita, impacto no centro com flash + ring + cutLine, recua para esquerda."
+        },
+        {
+          "type": "new",
+          "text": "Notificação uma única vez quando chance de dano crítico é ativada (após X minutos configurados)."
+        },
+        {
+          "type": "improved",
+          "text": "Sons centralizados na pasta gameplay/ — appSounds() aponta diretamente para o diretório."
+        },
+        {
+          "type": "improved",
+          "text": "Áudio de parry e crítico sincronizados com o momento exato do impacto na animação."
+        },
+        {
+          "type": "improved",
+          "text": "Simplificação completa do audio-manager — removidos preloading, cache, pool e sons inexistentes."
+        },
+        {
+          "type": "fixed",
+          "text": "Paths de áudio duplicados no audio-manager — appSounds() já adicionava prefixo que estava nos soundMaps."
+        },
+        {
+          "type": "fixed",
+          "text": "Path duplicado do som de parry — gameplay/gameplay/parry.mp3 corrigido para parry.mp3."
+        },
+        {
+          "type": "fixed",
+          "text": "Mensagem de reparo de assets atualizada — título 'Assets Atualizados', texto 'Necessário reiniciar'."
+        },
+        {
+          "type": "removed",
+          "text": "Transições glitch, neon-sweep e pixel-collapse removidas — mantidas apenas warp-gate e signal-break."
+        },
+        {
+          "type": "removed",
+          "text": "Sistema de preloading/cache de áudio (sfx-manager) removido — sons criados sob demanda."
+        },
+        {
+          "type": "removed",
+          "text": "Sons de notificação removidos (arquivos não existiam no repo)."
+        }
+      ]
+    },
+    {
       "version": "1.4.31",
       "date": "2026-08-22",
       "changes": [
