@@ -1,6 +1,32 @@
 {
   "versions": [
     {
+      "version": "1.4.33",
+      "date": "2026-08-24",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Seleção de buff/bloqueio agora usa os próprios slots da mão — painel inline removido, slots aplicáveis ficam com glow e badge de tipo."
+        },
+        {
+          "type": "fixed",
+          "text": "Animação de cooldown das cartas nos slots estava invertida — máscara cinza agora começa cobrindo a carta e recorta conforme o cooldown avança."
+        },
+        {
+          "type": "fixed",
+          "text": "Notificações do Player 2 agora animam da direita para esquerda (espelhadas) — pill, conteúdo e bubble posicionados corretamente."
+        },
+        {
+          "type": "refactor",
+          "text": "Keyframes duplicadas de espelhamento do Player 2 substituídas por CSS custom properties (--notif-origin, --notif-slide)."
+        },
+        {
+          "type": "cleanup",
+          "text": "Previews temporários de design removidos (bbp-panel, card-wheel)."
+        }
+      ]
+    },
+    {
       "version": "1.4.32",
       "date": "2026-08-23",
       "changes": [
