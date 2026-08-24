@@ -1,6 +1,20 @@
 {
   "versions": [
     {
+      "version": "1.4.34",
+      "date": "2026-08-24",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Cartas nos slots eram removidas após primeiro uso mesmo com múltiplos usos configurados — propriedade duration estava com nome PT/EN mismatch entre config e código."
+        },
+        {
+          "type": "improved",
+          "text": "Propriedades de duração das cartas padronizadas para inglês (duration/type/value/turns/uses/none) com retrocompatibilidade para configs legadas em PT."
+        }
+      ]
+    },
+    {
       "version": "1.4.33",
       "date": "2026-08-24",
       "changes": [
