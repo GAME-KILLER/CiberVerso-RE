@@ -1,6 +1,48 @@
 {
   "versions": [
     {
+      "version": "1.4.40",
+      "date": "2026-08-25",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Hand carousel com 12 slots (2 rows de 6 com flip 3D via scroll)."
+        },
+        {
+          "type": "new",
+          "text": "Seleção buff/bloqueio expande para mostrar todos os 12 slots simultaneamente."
+        },
+        {
+          "type": "new",
+          "text": "Scroll sobre slots troca entre rows (wheel event com cooldown)."
+        },
+        {
+          "type": "new",
+          "text": "Overlays UCM em todos os 12 slots com check de visibilidade no clique."
+        },
+        {
+          "type": "improved",
+          "text": "Transições parry-clash e critical-slash excluídas do pool do character selector."
+        },
+        {
+          "type": "fixed",
+          "text": "Face-B não recebia cliques no expanded mode (overflow:hidden no players-area)."
+        },
+        {
+          "type": "fixed",
+          "text": "Hover dos slots não era cortado por overflow (backface-visibility ao invés de overflow:hidden)."
+        },
+        {
+          "type": "fixed",
+          "text": "Scroll + UCM: overlays funcionavam corretamente ao trocar de row durante modal aberto."
+        },
+        {
+          "type": "refactor",
+          "text": "Removido limitador handSlots — 12 slots fixos no HTML, sem injeção dinâmica."
+        }
+      ]
+    },
+    {
       "version": "1.4.34",
       "date": "2026-08-24",
       "changes": [
