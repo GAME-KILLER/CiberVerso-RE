@@ -1,6 +1,52 @@
 {
   "versions": [
     {
+      "version": "1.5.1",
+      "date": "2026-08-29",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Menu principal usa fundo do menu (menuBg) em vez do gameplay."
+        },
+        {
+          "type": "fixed",
+          "text": "Debug console fechava com ESC mas reabria o menu pause."
+        },
+        {
+          "type": "fixed",
+          "text": "Blocos do menu pause recebiam clique e animação zoom."
+        },
+        {
+          "type": "fixed",
+          "text": "Zoom mostrava imagem dos blocos corretamente."
+        },
+        {
+          "type": "improved",
+          "text": "Debug console redesign: visual compacto, position top center, blur."
+        },
+        {
+          "type": "improved",
+          "text": "Logs coloridos por tipo (info, warn, error, debug, command, success)."
+        },
+        {
+          "type": "improved",
+          "text": "Limite de logs reduzido de 500 para 100."
+        },
+        {
+          "type": "new",
+          "text": "Atalho F12 para abrir/fechar debug console durante gameplay."
+        },
+        {
+          "type": "removed",
+          "text": "Filtros de log removidos do debug console."
+        },
+        {
+          "type": "removed",
+          "text": "Botão de configurações removido do debug console."
+        }
+      ]
+    },
+    {
       "version": "1.5.0",
       "date": "2026-08-28",
       "changes": [
