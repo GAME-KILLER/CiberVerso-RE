@@ -1,6 +1,6 @@
 {
-  "version": "1.5.0",
-  "generatedAt": "2026-08-29T00:40:34.637Z",
+  "version": "1.0.0",
+  "generatedAt": "2026-08-29T20:09:19.150Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -153,9 +153,34 @@
       "size": 42962978
     },
     {
-      "path": "ui/menu-icons/app_icon.webp",
-      "sha256": "90a3336d4e901d4ce978a4b9e00fd8f07d8fc1c927ab1b24252e36575d275006",
-      "size": 1765512
+      "path": "ui/menu-icons/banner_cards.webp",
+      "sha256": "3900fbde32807473270163b5b3bce1a30cafa8abff7b4052951066cc2920279d",
+      "size": 204352
+    },
+    {
+      "path": "ui/menu-icons/banner_characters.webp",
+      "sha256": "bea97fc022554bbf81e488adc808361af7c01d02525ec68df5d5864f2f4abe5c",
+      "size": 266900
+    },
+    {
+      "path": "ui/menu-icons/banner_debug.webp",
+      "sha256": "5b6e0b653a3dd93cdfdd8aae044aa72c4352df317a6bdcbe2ca9f4514005d38c",
+      "size": 270288
+    },
+    {
+      "path": "ui/menu-icons/banner_general.webp",
+      "sha256": "5ad7d6b1f445a1ac5df1ea8895876db1b8cdd3d3eeaa69045d6b63541d3a7de8",
+      "size": 276400
+    },
+    {
+      "path": "ui/menu-icons/banner_live.webp",
+      "sha256": "fde0a3c0ea955fa98b3bca944c99490f32a25139f1898c8675470876813f712a",
+      "size": 268374
+    },
+    {
+      "path": "ui/menu-icons/banner_status.webp",
+      "sha256": "1cdc00a38256869adef74225686322172f44507d995b1d50d4e33a10615808d9",
+      "size": 270110
     },
     {
       "path": "ui/menu-icons/claude_ai_logo.webp",
@@ -398,6 +423,11 @@
       "size": 11102
     },
     {
+      "path": "ui/placeholders/default_banner.webp",
+      "sha256": "d2c36619a679fe79187c279cad1df35c7619435a56987dae8468e8918c0f0857",
+      "size": 2155228
+    },
+    {
       "path": "ui/placeholders/default_card.webm",
       "sha256": "1556b4ba594dfd5287e7d799d65e33aa27d0e1cc17d8fd4b8cb11ddf5a63f704",
       "size": 4640931
@@ -448,14 +478,14 @@
       "size": 38452
     },
     {
-      "path": "ui/sounds/theme/Lobby_theme.mp3",
-      "sha256": "58d2c8b44b2fedbfa28aac94b78412145837dd83d4a9e6f22b28c51a02539d28",
-      "size": 4478572
+      "path": "ui/sounds/theme/Lobby Theme - Collision.mp3",
+      "sha256": "094be24ad2c520f7325797f05a7e2b53bfd80f4c2868380a8e6705ced5fea91b",
+      "size": 2544997
     },
     {
-      "path": "ui/sounds/theme/Tema_CiberVerso.mp3",
-      "sha256": "420f9b263097624feaa5d823f3ec002d41d80e247766162a523203b9b9619bf5",
-      "size": 6051824
+      "path": "ui/sounds/theme/Main Theme - Horizon.mp3",
+      "sha256": "3ef6764f82d303bee1d7a50a29826196738a931b73e1642505715d8ca13d5ca6",
+      "size": 6080514
     },
     {
       "path": "ui/status/buff.webp",
