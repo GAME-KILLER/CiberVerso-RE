@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "generatedAt": "2026-08-25T14:39:02.049Z",
+  "version": "1.5.0",
+  "generatedAt": "2026-08-29T00:40:34.637Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -139,8 +139,8 @@
     },
     {
       "path": "ui/creators/creators_banner.webp",
-      "sha256": "2c6f8599d3ad9c8dd08b61499c362b40c10da61e64d36dec46b81da83c10daeb",
-      "size": 1066972
+      "sha256": "8106a8ccdeb83667886ff13b919fa868df62e77877223f18517e42dff9fe1280",
+      "size": 3451846
     },
     {
       "path": "ui/creators/imperador.webp",
@@ -153,9 +153,9 @@
       "size": 42962978
     },
     {
-      "path": "ui/loading-screen/loading-error.webm",
-      "sha256": "b5102dd50f7eb3a61000f81941b776a88eaf7751db0c3cdf701e2fe641085e8d",
-      "size": 42962978
+      "path": "ui/menu-icons/app_icon.webp",
+      "sha256": "90a3336d4e901d4ce978a4b9e00fd8f07d8fc1c927ab1b24252e36575d275006",
+      "size": 1765512
     },
     {
       "path": "ui/menu-icons/claude_ai_logo.webp",
@@ -178,6 +178,21 @@
       "size": 49478
     },
     {
+      "path": "ui/menu-icons/icon_app.svg",
+      "sha256": "8a1ae12ccb1077d0a2a22392e7a94158658bc09dc8e6dcc34343eb0df507dfb5",
+      "size": 274
+    },
+    {
+      "path": "ui/menu-icons/icon_behavior.svg",
+      "sha256": "aa6a9838ea7e664578b4ad57a1bf3bca7b7bddcbd9181edda76e8b625366fd9a",
+      "size": 252
+    },
+    {
+      "path": "ui/menu-icons/icon_cards.svg",
+      "sha256": "54b4c2323030759b316b897b5ea7091c501216f073a9560a8a70003b5df03044",
+      "size": 322
+    },
+    {
       "path": "ui/menu-icons/icon_change_game.png",
       "sha256": "f06a2b4007f395a023d13610e0f6dc38171695c30de50963c00d50d8cd7c353d",
       "size": 2433
@@ -188,9 +203,29 @@
       "size": 397
     },
     {
+      "path": "ui/menu-icons/icon_chat.svg",
+      "sha256": "f7ee55f1b4d37dfc1d473d29ad9d2f64c9330867b441fa89b2be08a77b207cb4",
+      "size": 256
+    },
+    {
+      "path": "ui/menu-icons/icon_classes.svg",
+      "sha256": "b629eb2fed7b394a29a94ac5f40bd5343f4861118227e67bcbedb9a67d5df503",
+      "size": 241
+    },
+    {
+      "path": "ui/menu-icons/icon_commands.svg",
+      "sha256": "86c7ce10763ac6569d7923abf89f4c9560c3f36e12fd2b47257675bde8214a2e",
+      "size": 257
+    },
+    {
       "path": "ui/menu-icons/icon_config.svg",
       "sha256": "a7488c381ea80e01b377d673aa0a105e14a61d98b017b5fc302ef50098602c36",
       "size": 840
+    },
+    {
+      "path": "ui/menu-icons/icon_creators.svg",
+      "sha256": "460df9f7b0f32f157b826344486ebb4314cd37444f8bed2a70156f41519ce2e0",
+      "size": 340
     },
     {
       "path": "ui/menu-icons/icon_debug.svg",
@@ -198,9 +233,39 @@
       "size": 325
     },
     {
+      "path": "ui/menu-icons/icon_effects.svg",
+      "sha256": "d548c8977d49b68f31a07fa4c2ae578b4067f16dfd4e497867e2e853485e6ba0",
+      "size": 241
+    },
+    {
       "path": "ui/menu-icons/icon_exit.svg",
       "sha256": "1a2c5ab7e2ae83179bc41d951e913569c9854b4a38677e53c1a4ab3604b2c938",
       "size": 309
+    },
+    {
+      "path": "ui/menu-icons/icon_gameplay.svg",
+      "sha256": "0c405fd10ecc47890a6421ab17c435f5d4100f794a2ea5ac7e194d6d2f9d378a",
+      "size": 476
+    },
+    {
+      "path": "ui/menu-icons/icon_image.svg",
+      "sha256": "87815e5ee01cf497e95834a7b76481ce2a698f48dc26900dd8f2db6026d0d79a",
+      "size": 294
+    },
+    {
+      "path": "ui/menu-icons/icon_import.svg",
+      "sha256": "e0bdf2ceef12000fee1375e2273cf1f325fdd0cb93ca8f73d3f5981a8a4af98d",
+      "size": 311
+    },
+    {
+      "path": "ui/menu-icons/icon_language.svg",
+      "sha256": "a1369ca31219da3257a09a849522d49528995daa4c2f86ebf1b2906b3d761e1c",
+      "size": 355
+    },
+    {
+      "path": "ui/menu-icons/icon_multiplayer.svg",
+      "sha256": "8457b63b41be0dff0dea3d42944acf592b4e826a717251f9f4f565f718528705",
+      "size": 388
     },
     {
       "path": "ui/menu-icons/icon_next.svg",
@@ -223,9 +288,19 @@
       "size": 217
     },
     {
+      "path": "ui/menu-icons/icon_playlist.svg",
+      "sha256": "005b8cff11245bba7e1b3ad52607becafdfa507c0da57229ac9085ddc286db8f",
+      "size": 319
+    },
+    {
       "path": "ui/menu-icons/icon_prev.svg",
       "sha256": "997021a76b938e1d6ad79f8015f32f01c213dfd0712e5b90f5fc8c36a9c0c2a3",
       "size": 202
+    },
+    {
+      "path": "ui/menu-icons/icon_reset.svg",
+      "sha256": "2249e4b8b603a0649fa5387d1da9e814df17d52110fa0decf6dc22304e0090c8",
+      "size": 262
     },
     {
       "path": "ui/menu-icons/icon_shuffle.svg",
@@ -238,9 +313,39 @@
       "size": 286
     },
     {
+      "path": "ui/menu-icons/icon_status.svg",
+      "sha256": "bdfe3e843ca3ca2e64679dd60b196cfc21da063d2cae281ea0b6a6cd448320da",
+      "size": 238
+    },
+    {
+      "path": "ui/menu-icons/icon_stream.svg",
+      "sha256": "d30e2bce6fd291fdbbe2e90c33e61c9f41aa7662f874616f9a247d17d285b8fc",
+      "size": 270
+    },
+    {
       "path": "ui/menu-icons/icon_swithdeck.png",
       "sha256": "249a540d00bd94f3c4d36e3762c2608d93fc98680014880d2e7daed6a0b21b10",
       "size": 10060
+    },
+    {
+      "path": "ui/menu-icons/icon_tools.svg",
+      "sha256": "99e33f5f26ce3bd0e55811e41be2604759683777f6d4fb74bfd768ec8c88f6a4",
+      "size": 347
+    },
+    {
+      "path": "ui/menu-icons/icon_visual.svg",
+      "sha256": "b677ce803def7a800c27752d8ee6b11b24d520f7efbcab0e29103e71f7bc8fb9",
+      "size": 270
+    },
+    {
+      "path": "ui/menu-icons/icon_volume.svg",
+      "sha256": "bd921a20a2021f2e75cbc3460e8fb7b43048a3721c6127c9d347388ed5714280",
+      "size": 319
+    },
+    {
+      "path": "ui/menu-icons/icon_youtube.svg",
+      "sha256": "27275554ebac1457cfd50c8cab73b0138c5c2d6a201647b60eea8decc0f84a09",
+      "size": 524
     },
     {
       "path": "ui/menu-icons/notif-edit.svg",
@@ -288,14 +393,14 @@
       "size": 73828
     },
     {
-      "path": "ui/placeholders/default-card.webm",
-      "sha256": "1556b4ba594dfd5287e7d799d65e33aa27d0e1cc17d8fd4b8cb11ddf5a63f704",
-      "size": 4640931
-    },
-    {
       "path": "ui/placeholders/default_add.png",
       "sha256": "45dde0736b561dc87ef5ae2920ad800c53817e9cb5271f9820a34940f7ec19b0",
       "size": 11102
+    },
+    {
+      "path": "ui/placeholders/default_card.webm",
+      "sha256": "1556b4ba594dfd5287e7d799d65e33aa27d0e1cc17d8fd4b8cb11ddf5a63f704",
+      "size": 4640931
     },
     {
       "path": "ui/placeholders/default_classe.webp",

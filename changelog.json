@@ -1,6 +1,52 @@
 {
   "versions": [
     {
+      "version": "1.5.0",
+      "date": "2026-08-28",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Atualiza o ícone do jogo."
+        },
+        {
+          "type": "fixed",
+          "text": "Esconde elementos de gameplay antes do loading iniciar."
+        },
+        {
+          "type": "fixed",
+          "text": "Vídeo loading usa caminho relativo ./loading-1.webm."
+        },
+        {
+          "type": "fixed",
+          "text": "Vídeo loading usa file:// direto para loading-1.webm."
+        },
+        {
+          "type": "fixed",
+          "text": "Simplifica reprodução do vídeo de fundo durante a loading screen."
+        },
+        {
+          "type": "fixed",
+          "text": "Separa o bloco Menu Principal para o modo pause."
+        },
+        {
+          "type": "fixed",
+          "text": "Corrige problemas de video loading, sair/menu principal e screenshots."
+        },
+        {
+          "type": "cleanup",
+          "text": "Remove ::before e ::after do loading screen."
+        },
+        {
+          "type": "cleanup",
+          "text": "Remove ícone do bloco Sair, mantendo apenas imagem de fundo."
+        },
+        {
+          "type": "new",
+          "text": "Usa app_icon.webp como fundo do bloco Sair no menu."
+        }
+      ]
+    },
+    {
       "version": "1.4.40",
       "date": "2026-08-25",
       "changes": [
