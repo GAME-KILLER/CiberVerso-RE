@@ -1,16 +1,16 @@
 <?xml version="1.0" standalone="yes"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1220" height="1220" viewBox="0 0 1220 1220">
-<path style="fill:#60a5fa; stroke:none;" d="
+<path style="fill:none; stroke:#60a5fa; stroke-width:8; stroke-linecap:round; stroke-linejoin:round;" d="
 M300 80 L920 80 L920 140 L660 560 L660 660 L920 1080 L920 1140
 L300 1140 L300 1080 L560 660 L560 560 L300 140 Z
-
-M480 400 L480 500 L420 500 L420 400 Z
-M740 400 L740 500 L800 500 L800 400 Z
-
-M480 720 L480 820 L420 820 L420 720 Z
-M740 720 L740 820 L800 820 L800 720 Z
-
-M580 700 L580 750 L560 750 L560 700 Z
-M640 730 L640 780 L620 780 L620 730 Z
 "/>
+
+<line x1="480" y1="400" x2="480" y2="500" stroke="#60a5fa" stroke-width="6" stroke-linecap="round"/>
+<line x1="740" y1="400" x2="740" y2="500" stroke="#60a5fa" stroke-width="6" stroke-linecap="round"/>
+
+<line x1="480" y1="720" x2="480" y2="820" stroke="#60a5fa" stroke-width="6" stroke-linecap="round"/>
+<line x1="740" y1="720" x2="740" y2="820" stroke="#60a5fa" stroke-width="6" stroke-linecap="round"/>
+
+<line x1="580" y1="700" x2="580" y2="750" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+<line x1="640" y1="730" x2="640" y2="780" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
 </svg>
