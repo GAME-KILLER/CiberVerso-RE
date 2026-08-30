@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1220" height="1220" viewBox="0 0 1220 1220">
 <defs>
 <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-<feGaussianBlur stdDeviation="6" result="blur"/>
+<feGaussianBlur stdDeviation="10" result="blur"/>
 <feMerge>
 <feMergeNode in="blur"/>
 <feMergeNode in="SourceGraphic"/>
@@ -16,7 +16,7 @@ M300 80 L920 80 L920 140 L660 560 L660 660 L920 1080 L920 1140
 L300 1140 L300 1080 L560 660 L560 560 L300 140 Z
 "/>
 
-<path style="fill:none; stroke:#60a5fa; stroke-width:8; stroke-linecap:round; opacity:0.5;" d="M380 180 L580 520"/>
-<path style="fill:none; stroke:#60a5fa; stroke-width:8; stroke-linecap:round; opacity:0.5;" d="M640 700 L840 1040"/>
+<path style="fill:none; stroke:#60a5fa; stroke-width:8; stroke-linecap:round;" d="M380 180 L580 520"/>
+<path style="fill:none; stroke:#60a5fa; stroke-width:8; stroke-linecap:round;" d="M640 700 L840 1040"/>
 </g>
 </svg>
