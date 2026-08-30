@@ -1,88 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
-  <defs>
-    <filter id="neon-glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="14" result="blur"/>
-      <feMerge><feMergeNode in="blur"/></feMerge>
-    </filter>
-  </defs>
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="1220" viewBox="0 0 1220 1220">
+<path style="fill:#60a5fa; stroke:none;" d="
+M300 80 L920 80 L920 140 L660 560 L660 660 L920 1080 L920 1140
+L300 1140 L300 1080 L560 660 L560 560 L300 140 Z
 
-  <!--
-    Ampulheta angular/geométrica — path único fechado:
-    Traceja todo o contorno externo em uma única linha contínua.
-    Topo: barra horizontal → triângulo desce ao centro
-    Centro: pescoço estreito
-    Base: triângulo desce → barra horizontal
-  -->
+M480 400 L480 500 L420 500 L420 400 Z
+M740 400 L740 500 L800 500 L800 400 Z
 
-  <!-- Camada 1: Glow -->
-  <path d="
-    M 300 120
-    L 900 120
-    L 900 180
-    L 640 560
-    L 640 640
-    L 900 1020
-    L 900 1080
-    L 300 1080
-    L 300 1020
-    L 560 640
-    L 560 560
-    L 300 180
-    Z
-  " fill="none" stroke="#60a5fa" stroke-width="24" filter="url(#neon-glow)" opacity="0.55" stroke-linecap="round" stroke-linejoin="round"/>
+M480 720 L480 820 L420 820 L420 720 Z
+M740 720 L740 820 L800 820 L800 720 Z
 
-  <!-- Camada 2: Bevel -->
-  <path d="
-    M 300 120
-    L 900 120
-    L 900 180
-    L 640 560
-    L 640 640
-    L 900 1020
-    L 900 1080
-    L 300 1080
-    L 300 1020
-    L 560 640
-    L 560 560
-    L 300 180
-    Z
-  " fill="none" stroke="#1e3a6e" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Camada 3: Corpo principal -->
-  <path d="
-    M 300 120
-    L 900 120
-    L 900 180
-    L 640 560
-    L 640 640
-    L 900 1020
-    L 900 1080
-    L 300 1080
-    L 300 1020
-    L 560 640
-    L 560 560
-    L 300 180
-    Z
-  " fill="none" stroke="#60a5fa" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Camada 4: Highlight central -->
-  <path d="
-    M 300 120
-    L 900 120
-    L 900 180
-    L 640 560
-    L 640 640
-    L 900 1020
-    L 900 1080
-    L 300 1080
-    L 300 1020
-    L 560 640
-    L 560 560
-    L 300 180
-    Z
-  " fill="none" stroke="#d6e8ff" stroke-width="5" opacity="0.7" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Detalhe opcional: grãos caindo (linhas soltas fora da silhueta) -->
-  <line x1="590" y1="680" x2="590" y2="740" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
-  <line x1="610" y1="700" x2="610" y2="760" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+M580 700 L580 750 L560 750 L560 700 Z
+M640 730 L640 780 L620 780 L620 730 Z
+"/>
 </svg>
