@@ -4,6 +4,16 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="1220.000000pt" height="1220.000000pt" viewBox="0 0 1220.000000 1220.000000"
  preserveAspectRatio="xMidYMid meet">
+<defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="10" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<g filter="url(#glow)">
 
 <g transform="translate(0.000000,1220.000000) scale(0.100000,-0.100000)"
 fill="#c4b5fd" stroke="none">
@@ -227,6 +237,5 @@ fill="#c4b5fd" stroke="none">
 -13 48 3 17 23 13 35 -52 169 -117 241 -243 445 -322 519 -11 12 -74 77 -138
 145 -152 162 -147 167 90 89z"/>
 <path d="M4646 122 c-6 -10 21 -52 35 -52 5 0 9 6 9 13 0 18 -36 51 -44 39z"/>
-</g>
 </g>
 </svg>
