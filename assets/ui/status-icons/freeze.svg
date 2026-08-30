@@ -7,129 +7,82 @@
   </defs>
 
   <!--
-    Ampulheta angular/geométrica:
-    - Topo: triângulo invertido (boca aberta para cima)
-    - Base: triângulo (boca aberta para baixo)
-    - Cintura: nó estreito no centro
-    - Detalhes: grãos caindo (linhas soltas fora da silhueta)
+    Ampulheta angular/geométrica — path único fechado:
+    Traceja todo o contorno externo em uma única linha contínua.
+    Topo: barra horizontal → triângulo desce ao centro
+    Centro: pescoço estreito
+    Base: triângulo desce → barra horizontal
   -->
-
-  <!-- Path da ampulheta: contour fechado, angular, simétrico -->
-  <path d="
-    M 300 150
-    L 900 150
-    L 900 170
-    L 640 540
-    L 640 560
-    L 560 560
-    L 560 540
-    L 360 170
-    L 360 150
-    Z
-    M 360 1050
-    L 640 680
-    L 640 660
-    L 560 660
-    L 560 680
-    L 900 1050
-    L 900 1030
-    L 300 1030
-    Z
-  " fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Camada 1: Glow -->
   <path d="
-    M 300 150
-    L 900 150
-    L 900 170
-    L 640 540
+    M 300 120
+    L 900 120
+    L 900 180
     L 640 560
+    L 640 640
+    L 900 1020
+    L 900 1080
+    L 300 1080
+    L 300 1020
+    L 560 640
     L 560 560
-    L 560 540
-    L 360 170
-    L 360 150
+    L 300 180
     Z
-    M 360 1050
-    L 640 680
-    L 640 660
-    L 560 660
-    L 560 680
-    L 900 1050
-    L 900 1030
-    L 300 1030
-    Z
-  " fill="none" stroke="#60a5fa" stroke-width="24" filter="url(#neon-glow)" opacity="0.55"/>
+  " fill="none" stroke="#60a5fa" stroke-width="24" filter="url(#neon-glow)" opacity="0.55" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Camada 2: Bevel -->
   <path d="
-    M 300 150
-    L 900 150
-    L 900 170
-    L 640 540
+    M 300 120
+    L 900 120
+    L 900 180
     L 640 560
+    L 640 640
+    L 900 1020
+    L 900 1080
+    L 300 1080
+    L 300 1020
+    L 560 640
     L 560 560
-    L 560 540
-    L 360 170
-    L 360 150
+    L 300 180
     Z
-    M 360 1050
-    L 640 680
-    L 640 660
-    L 560 660
-    L 560 680
-    L 900 1050
-    L 900 1030
-    L 300 1030
-    Z
-  " fill="none" stroke="#1e3a6e" stroke-width="20"/>
+  " fill="none" stroke="#1e3a6e" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Camada 3: Corpo principal -->
   <path d="
-    M 300 150
-    L 900 150
-    L 900 170
-    L 640 540
+    M 300 120
+    L 900 120
+    L 900 180
     L 640 560
+    L 640 640
+    L 900 1020
+    L 900 1080
+    L 300 1080
+    L 300 1020
+    L 560 640
     L 560 560
-    L 560 540
-    L 360 170
-    L 360 150
+    L 300 180
     Z
-    M 360 1050
-    L 640 680
-    L 640 660
-    L 560 660
-    L 560 680
-    L 900 1050
-    L 900 1030
-    L 300 1030
-    Z
-  " fill="none" stroke="#60a5fa" stroke-width="15"/>
+  " fill="none" stroke="#60a5fa" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Camada 4: Highlight central -->
   <path d="
-    M 300 150
-    L 900 150
-    L 900 170
-    L 640 540
+    M 300 120
+    L 900 120
+    L 900 180
     L 640 560
+    L 640 640
+    L 900 1020
+    L 900 1080
+    L 300 1080
+    L 300 1020
+    L 560 640
     L 560 560
-    L 560 540
-    L 360 170
-    L 360 150
+    L 300 180
     Z
-    M 360 1050
-    L 640 680
-    L 640 660
-    L 560 660
-    L 560 680
-    L 900 1050
-    L 900 1030
-    L 300 1030
-    Z
-  " fill="none" stroke="#d6e8ff" stroke-width="5" opacity="0.7"/>
+  " fill="none" stroke="#d6e8ff" stroke-width="5" opacity="0.7" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Detalhe opcional: grãos caindo (linhas soltas fora da silhueta) -->
-  <line x1="580" y1="600" x2="580" y2="650" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
-  <line x1="620" y1="620" x2="620" y2="670" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="590" y1="680" x2="590" y2="740" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <line x1="610" y1="700" x2="610" y2="760" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
 </svg>
