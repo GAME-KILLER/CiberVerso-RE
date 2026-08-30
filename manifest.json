@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "generatedAt": "2026-08-30T18:21:57.935Z",
+  "version": "1.5.3",
+  "generatedAt": "2026-08-30T22:15:55.858Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -473,6 +473,16 @@
       "size": 16856
     },
     {
+      "path": "ui/sounds/gameplay/stop_time_1.mp3",
+      "sha256": "65afb43129c673d0685bccfc1c2145608f711bc69e0ae2bcf72f3569c0d36436",
+      "size": 47633
+    },
+    {
+      "path": "ui/sounds/gameplay/stop_time_2.mp3",
+      "sha256": "3f01d3753fb0bede6b9db6ebfaa9eb923e48ba44635d1646e7383c8081d7b923",
+      "size": 36290
+    },
+    {
       "path": "ui/sounds/gameplay/virar_carta.mp3",
       "sha256": "64c4ea6f62da8f7f7e05b0c47dd43276bdde692af755daec87c75fbebf64dbd2",
       "size": 38452
@@ -498,29 +508,34 @@
       "size": 84838
     },
     {
-      "path": "ui/status-icons/dark.webp",
-      "sha256": "4f0cc92433c6648eb08f8131f013ff817cc3de1535c762156f9f2389f50f2d8c",
-      "size": 229988
+      "path": "ui/status-icons/dark.svg",
+      "sha256": "38e339280540c7cbccb508604bb660efab39965f45a85cbdbda62e1e0f4a24ea",
+      "size": 6556
     },
     {
-      "path": "ui/status-icons/fire.webp",
-      "sha256": "dc2534e0f314349d5c0c049b019b7132c2b31f45d351bb62bbe50f88bb50c42a",
-      "size": 193906
+      "path": "ui/status-icons/fire.svg",
+      "sha256": "7508c14189fb6588a2377b66039f12c17755a703b2e2c3d9e4cf1b55b8735b06",
+      "size": 11919
     },
     {
-      "path": "ui/status-icons/ice.webp",
-      "sha256": "76ba2ed6cfdca431c76fa31a874f8d00d8e7472d81bf469b8c8db5e27d1cb308",
-      "size": 232944
+      "path": "ui/status-icons/freeze.svg",
+      "sha256": "cd8189eb78581d3e4ddf89b7d42a28c666ae4c345fefe60600264056056b5f66",
+      "size": 817
     },
     {
-      "path": "ui/status-icons/lightning.webp",
-      "sha256": "873d2b0ff95b3e40ce58030310a2dea57d893e047266f00aae3afbea7a625a95",
-      "size": 98936
+      "path": "ui/status-icons/ice.svg",
+      "sha256": "3d310a6c8aebf85362d410ff196581759f1f24ceaa6f046430ad04bf8cbb1ae9",
+      "size": 18556
     },
     {
-      "path": "ui/status-icons/physical.webp",
-      "sha256": "0c4e4a2a0883bd18934f7c5dfa62c9efcfd6e85b9adc407fd25735da399f197e",
-      "size": 200564
+      "path": "ui/status-icons/lightning.svg",
+      "sha256": "faa47ebc67a00ac9f32d6f6527b12df507b639c72d3244239760d43941e5cfa4",
+      "size": 4593
+    },
+    {
+      "path": "ui/status-icons/physical.svg",
+      "sha256": "ef5ac2765dbb0a9a04e5346edb428fc39e63c990af27eaabab74aaff9ab1fa13",
+      "size": 9988
     },
     {
       "path": "ui/status-icons/poison.svg",
@@ -528,9 +543,9 @@
       "size": 1661
     },
     {
-      "path": "ui/status-icons/void.webp",
-      "sha256": "440a71a3933976a3721031ca4fa7b3212eb1baed751521597f356ed74b021e0d",
-      "size": 293194
+      "path": "ui/status-icons/void.svg",
+      "sha256": "335711fad88052712522aa175f81ff227d9158c2006d4ff2cb3e10611d63e267",
+      "size": 17026
     }
   ]
 }
