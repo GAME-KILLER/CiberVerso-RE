@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <defs>
+    <filter id="neon-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge><feMergeNode in="blur"/></feMerge>
+    </filter>
+  </defs>
+
+  <!--
+    Chama angular/geométrica — path único fechado:
+    Silhueta de fogo com pontas afiadas, estilo cyberpunk rune.
+    Trilho esquerdo sobe em zigue-zague até o topo,
+    desce pelo trilho direito até a base.
+  -->
+
+  <!-- Camada 1: Glow -->
+  <path d="
+    M 600 80
+    L 640 280
+    L 720 200
+    L 680 400
+    L 820 320
+    L 760 520
+    L 900 440
+    L 820 680
+    L 940 620
+    L 840 840
+    L 920 800
+    L 780 1000
+    L 700 920
+    L 600 1080
+    L 500 920
+    L 420 1000
+    L 280 800
+    L 360 840
+    L 260 620
+    L 380 680
+    L 300 440
+    L 440 520
+    L 380 320
+    L 520 400
+    L 480 200
+    L 560 280
+    Z
+  " fill="none" stroke="#F2892E" stroke-width="24" filter="url(#neon-glow)" opacity="0.55" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Camada 2: Bevel -->
+  <path d="
+    M 600 80
+    L 640 280
+    L 720 200
+    L 680 400
+    L 820 320
+    L 760 520
+    L 900 440
+    L 820 680
+    L 940 620
+    L 840 840
+    L 920 800
+    L 780 1000
+    L 700 920
+    L 600 1080
+    L 500 920
+    L 420 1000
+    L 280 800
+    L 360 840
+    L 260 620
+    L 380 680
+    L 300 440
+    L 440 520
+    L 380 320
+    L 520 400
+    L 480 200
+    L 560 280
+    Z
+  " fill="none" stroke="#7A3600" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Camada 3: Corpo principal -->
+  <path d="
+    M 600 80
+    L 640 280
+    L 720 200
+    L 680 400
+    L 820 320
+    L 760 520
+    L 900 440
+    L 820 680
+    L 940 620
+    L 840 840
+    L 920 800
+    L 780 1000
+    L 700 920
+    L 600 1080
+    L 500 920
+    L 420 1000
+    L 280 800
+    L 360 840
+    L 260 620
+    L 380 680
+    L 300 440
+    L 440 520
+    L 380 320
+    L 520 400
+    L 480 200
+    L 560 280
+    Z
+  " fill="none" stroke="#F2892E" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Camada 4: Highlight central -->
+  <path d="
+    M 600 80
+    L 640 280
+    L 720 200
+    L 680 400
+    L 820 320
+    L 760 520
+    L 900 440
+    L 820 680
+    L 940 620
+    L 840 840
+    L 920 800
+    L 780 1000
+    L 700 920
+    L 600 1080
+    L 500 920
+    L 420 1000
+    L 280 800
+    L 360 840
+    L 260 620
+    L 380 680
+    L 300 440
+    L 440 520
+    L 380 320
+    L 520 400
+    L 480 200
+    L 560 280
+    Z
+  " fill="none" stroke="#FFE1BD" stroke-width="5" opacity="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
