@@ -1,6 +1,68 @@
 {
   "versions": [
     {
+      "version": "1.5.2",
+      "date": "2026-08-30",
+      "changes": [
+        {
+          "type": "new",
+          "text": "HUD unificado: gameplay bar conectada visualmente aos modern HUDs."
+        },
+        {
+          "type": "new",
+          "text": "Efeito neon rotativo (conic-gradient) nos held cards no hover."
+        },
+        {
+          "type": "new",
+          "text": "Animação 3D spin (rotateY 360°) nos held cards no hover."
+        },
+        {
+          "type": "improved",
+          "text": "Tema cyan/violeta aplicado nas barras de HP e suporte."
+        },
+        {
+          "type": "improved",
+          "text": "Glow neon e animação barPulse nas barras de HP."
+        },
+        {
+          "type": "improved",
+          "text": "Suporte bar aumentada para melhor visibilidade."
+        },
+        {
+          "type": "improved",
+          "text": "Ícone de suporte maior com overflow visível."
+        },
+        {
+          "type": "improved",
+          "text": "Tipografia padronizada na gameplay bar (Orbitron, bold, uppercase)."
+        },
+        {
+          "type": "improved",
+          "text": "Deck switch simplificado — apenas ícone, sem texto."
+        },
+        {
+          "type": "fixed",
+          "text": "Gradientes das barras de HP corrigidos (bases para preto leve)."
+        },
+        {
+          "type": "fixed",
+          "text": "Padding e gap sincronizados entre preview e código real."
+        },
+        {
+          "type": "fixed",
+          "text": "Compatibilidade de resolução — valores fixos substituídos por vw/vh."
+        },
+        {
+          "type": "removed",
+          "text": "Código morto removido: gameplay-bar.css consolidado em gameplay-hud.css."
+        },
+        {
+          "type": "removed",
+          "text": "Classes CSS não utilizadas removidas (held-cards-ui, minigame-modal, etc)."
+        }
+      ]
+    },
+    {
       "version": "1.5.1",
       "date": "2026-08-29",
       "changes": [
