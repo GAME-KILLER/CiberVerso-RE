@@ -1,6 +1,36 @@
 {
   "versions": [
     {
+      "version": "1.5.4",
+      "date": "2026-08-31",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Animação hover dos slots de cartas não reinicia mais indefinidamente ao manter o mouse parado."
+        },
+        {
+          "type": "fixed",
+          "text": "Blocos do menu principal ficavam vazios no app empacotado (Windows) — agora usa protocolo ciber://."
+        },
+        {
+          "type": "fixed",
+          "text": "Cores dos status built-in corrigidas para combinar com os ícones SVG reais."
+        },
+        {
+          "type": "improved",
+          "text": "Rework visual da aba de Status — cards com layout limpo, ícone centralizado e selo built-in integrado."
+        },
+        {
+          "type": "improved",
+          "text": "Sistema de prioridade removido dos status (código morto unificado em priority 3)."
+        },
+        {
+          "type": "improved",
+          "text": "Ícone de status preenche 85% da área visual para maior impacto visual."
+        }
+      ]
+    },
+    {
       "version": "1.5.3",
       "date": "2026-08-30",
       "changes": [
