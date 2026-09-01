@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "version": "1.5.7",
+      "date": "2026-09-01",
+      "changes": [
+        {
+          "type": "fixed",
+          "text": "Indicador de statusreposicionado e overflow corrigido para evitar corte visual"
+        }
+      ]
+    },
+    {
       "version": "1.5.6",
       "date": "2026-09-01",
       "changes": [
