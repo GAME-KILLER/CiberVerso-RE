@@ -3,9 +3,9 @@
   "autoDownload": true,
   "assetValidation": true,
   "broadcast": {
-    "enabled": true,
-    "id": "msg-2026-09-01",
-    "title": "Novidade!",
-    "text": "A barra de HP agora mostra os números em tempo real durante dano e cura. Aproveite a nova animação!"
+    "enabled": false,
+    "id": "msg-2026-09-02",
+    "title": "Teste desativado",
+    "text": "Essa mensagem não deveria aparecer."
   }
 }
