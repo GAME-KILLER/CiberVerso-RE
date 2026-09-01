@@ -1,6 +1,40 @@
 {
   "versions": [
     {
+      "version": "1.5.6",
+      "date": "2026-09-01",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Animação de dano e cura no HUD — barra de HP conta os números em tempo real sincronizado com o áudio"
+        },
+        {
+          "type": "improved",
+          "text": "Barras de HP e suporte com visual mais limpo e cores mais definidas"
+        },
+        {
+          "type": "improved",
+          "text": "Tooltips de status com design em vidro e entrada sequencial"
+        },
+        {
+          "type": "improved",
+          "text": "Cooldown de cartas com efeito holográfico ao ficar pronta"
+        },
+        {
+          "type": "improved",
+          "text": "Vídeo de loading pausa automaticamente ao entrar no gameplay"
+        },
+        {
+          "type": "removed",
+          "text": "Números flutuantes de dano e cura removidos"
+        },
+        {
+          "type": "removed",
+          "text": "Efeitos de partículas removidos do sistema de combate"
+        }
+      ]
+    },
+    {
       "version": "1.5.5",
       "date": "2026-08-31",
       "changes": [

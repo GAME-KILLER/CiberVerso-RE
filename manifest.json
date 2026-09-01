@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "generatedAt": "2026-08-31T22:03:58.484Z",
+  "version": "1.5.6",
+  "generatedAt": "2026-09-01T21:31:27.438Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -463,6 +463,11 @@
       "size": 50688
     },
     {
+      "path": "ui/sounds/gameplay/hp-drop.mp3",
+      "sha256": "c03393ca39176848f29108a94da2a1388e276b175f4460c546cbf699fb8b6758",
+      "size": 560273
+    },
+    {
       "path": "ui/sounds/gameplay/live_pop.mp3",
       "sha256": "6d0369350e1e0d5c5c1bb5e487df5d10b36d9d2d142b68b3fa9572f7acccb0ec",
       "size": 5246
@@ -488,14 +493,14 @@
       "size": 38452
     },
     {
-      "path": "ui/sounds/theme/Lobby Theme - Collision.mp3",
-      "sha256": "094be24ad2c520f7325797f05a7e2b53bfd80f4c2868380a8e6705ced5fea91b",
-      "size": 2544997
+      "path": "ui/sounds/theme/Lobby Theme.mp3",
+      "sha256": "08dd225864db164464aabaec0dd8b5896789ab663a14be7fda291fb6abe6390c",
+      "size": 6426007
     },
     {
-      "path": "ui/sounds/theme/Main Theme - Horizon.mp3",
-      "sha256": "3ef6764f82d303bee1d7a50a29826196738a931b73e1642505715d8ca13d5ca6",
-      "size": 6080514
+      "path": "ui/sounds/theme/Main Theme.mp3",
+      "sha256": "982e5d10731feb8945453cd5f0c4500ab3c89a552f6584915cd4a7feccd99beb",
+      "size": 5731801
     },
     {
       "path": "ui/status/buff.webp",
