@@ -1,6 +1,80 @@
 {
   "versions": [
     {
+      "version": "1.5.8",
+      "date": "2026-09-02",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Seletor de personagens redesenhado — layout minimalista, painéis 1:1, portraits preenchendo painel, informações com fundo glass, animações de entrada"
+        },
+        {
+          "type": "new",
+          "text": "Loading screen com vídeo de fundo — transição para imagem estática de alta resolução"
+        },
+        {
+          "type": "new",
+          "text": "Loading-1.webm via asset resolver — vídeo de fundo carregado da pasta de assets"
+        },
+        {
+          "type": "improved",
+          "text": "Cores unificadas via tokens — --p1/--p2 em todo o projeto"
+        },
+        {
+          "type": "improved",
+          "text": "Barras de HP com cores do token"
+        },
+        {
+          "type": "improved",
+          "text": "Suporte hex mostra face do personagem"
+        },
+        {
+          "type": "improved",
+          "text": "Tooltips simplificados — glass sólido, texto maior, timing 5s"
+        },
+        {
+          "type": "improved",
+          "text": "Unidades responsivas no selector — vw em vez de px"
+        },
+        {
+          "type": "improved",
+          "text": "Música do lobby ao abrir character selector"
+        },
+        {
+          "type": "improved",
+          "text": "Broadcast bloqueia loading até confirmação"
+        },
+        {
+          "type": "fixed",
+          "text": "HP bar sem cor — rgba com variáveis corrigido"
+        },
+        {
+          "type": "fixed",
+          "text": "Poison/regen agora executam áudio e animação"
+        },
+        {
+          "type": "fixed",
+          "text": "Logo global removido (código morto)"
+        },
+        {
+          "type": "fixed",
+          "text": "Caminho da música do lobby corrigido"
+        },
+        {
+          "type": "removed",
+          "text": "28 root variables mortas removidas"
+        },
+        {
+          "type": "removed",
+          "text": "Aliases de cadeia removidos (color-cyan, color-player)"
+        },
+        {
+          "type": "removed",
+          "text": "loading-1.webm local removido (42MB)"
+        }
+      ]
+    },
+    {
       "version": "1.5.7",
       "date": "2026-09-01",
       "changes": [
