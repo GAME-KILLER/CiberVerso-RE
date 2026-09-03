@@ -1,6 +1,6 @@
 {
   "version": "1.5.8",
-  "generatedAt": "2026-09-02T17:53:51.957Z",
+  "generatedAt": "2026-09-03T16:19:25.315Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -133,6 +133,16 @@
       "size": 371884
     },
     {
+      "path": "ui/coin-flip/frente_coin_naja.png",
+      "sha256": "8b9b7dd2ea37bd77eaeeb9710ee3c7ec95e0999a01ae111ec3623f82c6f3a3c4",
+      "size": 806743
+    },
+    {
+      "path": "ui/coin-flip/verso_coin_ciber.png",
+      "sha256": "7ba32de6a964c2ca0f535108df1fb53de24b6a68f31067306ebb9616aa81adaf",
+      "size": 786499
+    },
+    {
       "path": "ui/creators/bozinho.webp",
       "sha256": "32c17455aa0b8fa7e8e4f5f98d933300c17e784a01b247026af0d9291082aff0",
       "size": 25788
@@ -156,11 +166,6 @@
       "path": "ui/loading-screen/loading-bg.webm",
       "sha256": "52da6aaefccf44ec232e6185e7d49372502d403cfc33989824d31df5a798f04b",
       "size": 299646
-    },
-    {
-      "path": "ui/loading-screen/loading_final_bg.jpg",
-      "sha256": "c396efbb3d141cc98ce50d540c0ab6e922a6b417a991e8a4c60612d5590748d7",
-      "size": 1210769
     },
     {
       "path": "ui/loading-screen/loading_final_bg.webp",
