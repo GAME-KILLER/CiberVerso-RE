@@ -1,6 +1,28 @@
 {
   "versions": [
     {
+      "version": "1.5.10",
+      "date": "2026-09-04",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Transição de troca de vez (turn-sweep): faixa horizontal na cor do jogador com nome e áudio, gatilho automático via live:turn-started"
+        },
+        {
+          "type": "improved",
+          "text": "Transição de parry reescrita com faixas diagonais e texto PARRY inteiro na diagonal"
+        },
+        {
+          "type": "fixed",
+          "text": "Caminhos dos assets da transição de troca de vez corrigidos"
+        },
+        {
+          "type": "fixed",
+          "text": "Áudio transition.mp3 sem silêncio inicial"
+        }
+      ]
+    },
+    {
       "version": "1.5.9",
       "date": "2026-09-03",
       "changes": [
