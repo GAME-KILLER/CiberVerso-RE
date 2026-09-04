@@ -1,6 +1,6 @@
 {
   "version": "1.5.9",
-  "generatedAt": "2026-09-03T17:23:31.832Z",
+  "generatedAt": "2026-09-04T12:25:08.380Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -11,6 +11,16 @@
       "path": "fonts/CloisterBlack.ttf",
       "sha256": "c9e71c7ceee1a96c9b983b5f7442199ec261dfc4201415123afc1a65617dbccd",
       "size": 71800
+    },
+    {
+      "path": "fonts/Cyberfall Italic.otf",
+      "sha256": "ddb9f8cd583b3b4ed051acd25878af001be31b82fe1cf6b8347f13e06b004a5b",
+      "size": 20708
+    },
+    {
+      "path": "fonts/Cyberfall.otf",
+      "sha256": "6e8aeca0f95d88549c4f4142392a132af3fc4bd15268d23cfe5ff7841b65306e",
+      "size": 19648
     },
     {
       "path": "fonts/DonGraffiti.otf",
@@ -98,6 +108,16 @@
       "size": 15440
     },
     {
+      "path": "ui/3D/coin/frente_coin_naja.png",
+      "sha256": "8b9b7dd2ea37bd77eaeeb9710ee3c7ec95e0999a01ae111ec3623f82c6f3a3c4",
+      "size": 806743
+    },
+    {
+      "path": "ui/3D/coin/verso_coin_ciber.png",
+      "sha256": "7ba32de6a964c2ca0f535108df1fb53de24b6a68f31067306ebb9616aa81adaf",
+      "size": 786499
+    },
+    {
       "path": "ui/changelog/icon-fixed.svg",
       "sha256": "e92c69f591d4eeabecd18c7a4e7be29742ec33d3cda37223fc0ce307ab210a99",
       "size": 271
@@ -131,16 +151,6 @@
       "path": "ui/ciberverso/card-verso.webp",
       "sha256": "1e311c8b950a2a853f3b441d2e2960fbb46135d66fd509a55aff026fc75e7ca0",
       "size": 371884
-    },
-    {
-      "path": "ui/coin-flip/frente_coin_naja.png",
-      "sha256": "8b9b7dd2ea37bd77eaeeb9710ee3c7ec95e0999a01ae111ec3623f82c6f3a3c4",
-      "size": 806743
-    },
-    {
-      "path": "ui/coin-flip/verso_coin_ciber.png",
-      "sha256": "7ba32de6a964c2ca0f535108df1fb53de24b6a68f31067306ebb9616aa81adaf",
-      "size": 786499
     },
     {
       "path": "ui/creators/bozinho.webp",

@@ -5,7 +5,7 @@
   "broadcast": {
     "enabled": false,
     "id": "msg-2026-09-02",
-    "title": "Teste desativado",
-    "text": "Essa mensagem não deveria aparecer."
+    "title": "",
+    "text": ""
   }
 }
