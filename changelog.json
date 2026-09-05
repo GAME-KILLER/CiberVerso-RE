@@ -1,6 +1,40 @@
 {
   "versions": [
     {
+      "version": "1.5.11",
+      "date": "2026-09-05",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Prompt de cartas interativas reformulado: descrição da carta primeiro, depois as opções numeradas"
+        },
+        {
+          "type": "improved",
+          "text": "Mensagens de suporte, info, classe e passiva mais claras e agora i18n (PT/EN)"
+        },
+        {
+          "type": "fixed",
+          "text": "Moeda 3D do cara ou coroa enquadra corretamente em qualquer resolução"
+        },
+        {
+          "type": "fixed",
+          "text": "Nomes de jogador sempre limpos (sem @) — corrige duplicação e inconsistência na identificação; o @ é adicionado apenas nas mensagens"
+        },
+        {
+          "type": "fixed",
+          "text": "Saves antigos com @ no nome são normalizados ao carregar"
+        },
+        {
+          "type": "fixed",
+          "text": "Timeout duplicado no fluxo de carta interativa removido; mensagem de tempo esgotado legível"
+        },
+        {
+          "type": "removed",
+          "text": "Removido arquivo de teste conceitual não executável"
+        }
+      ]
+    },
+    {
       "version": "1.5.10",
       "date": "2026-09-04",
       "changes": [
