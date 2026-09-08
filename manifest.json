@@ -1,6 +1,6 @@
 {
-  "version": "1.5.11",
-  "generatedAt": "2026-09-05T12:42:31.387Z",
+  "version": "1.5.12",
+  "generatedAt": "2026-09-08T17:03:51.857Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -301,6 +301,11 @@
       "path": "ui/menu-icons/icon_gameplay.svg",
       "sha256": "0c405fd10ecc47890a6421ab17c435f5d4100f794a2ea5ac7e194d6d2f9d378a",
       "size": 476
+    },
+    {
+      "path": "ui/menu-icons/icon_help.svg",
+      "sha256": "7489ce97c4db5a767cb140d7cdc99c5579888daa86c9c4fcde3920277447226d",
+      "size": 328
     },
     {
       "path": "ui/menu-icons/icon_image.svg",

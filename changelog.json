@@ -1,6 +1,84 @@
 {
   "versions": [
     {
+      "version": "1.5.12",
+      "date": "2026-09-08",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Aba Cyber no menu de configurações: ativar/desativar, API key, modelo, system prompt e chat de teste"
+        },
+        {
+          "type": "new",
+          "text": "Ícones de ajuda com tooltip (icon_help.svg) para interface mais limpa"
+        },
+        {
+          "type": "new",
+          "text": "Imagem ao Usar nas cartas: overlay lateral, crop 1:1 720x720 e prioridade sobre vídeo"
+        },
+        {
+          "type": "new",
+          "text": "Ativação de passiva com overlay da classe e dano após a animação"
+        },
+        {
+          "type": "new",
+          "text": "Label do deck atual na gameplay bar"
+        },
+        {
+          "type": "improved",
+          "text": "Config da IA reativa — alterações valem sem reiniciar o app"
+        },
+        {
+          "type": "improved",
+          "text": "Novos defaults da Cyber: modelo google/diffusiongemma-26b-a4b-it, sem prompt padrão e desativada"
+        },
+        {
+          "type": "improved",
+          "text": "Links para API keys e catálogo de modelos NVIDIA NIM nos tooltips"
+        },
+        {
+          "type": "improved",
+          "text": "Passiva imune a parry"
+        },
+        {
+          "type": "improved",
+          "text": "Moeda 3D corrigida em telas com DPR maior que 1 (TVs)"
+        },
+        {
+          "type": "improved",
+          "text": "Gameplay bar com cantos arredondados e botões sem fundo"
+        },
+        {
+          "type": "fixed",
+          "text": "Cyber sem chave responde apenas Não configurada; erro na live retorna Indisponível no momento"
+        },
+        {
+          "type": "fixed",
+          "text": "Chamadas concorrentes da Cyber serializadas e histórico resetado por partida"
+        },
+        {
+          "type": "fixed",
+          "text": "Overlay de imagem ao usar ignora arquivo ausente ou corrompido"
+        },
+        {
+          "type": "fixed",
+          "text": "Cooldown do slot com sobreposição cinza que desce revelando a carta"
+        },
+        {
+          "type": "fixed",
+          "text": "Holo de cooldown pronto cortado pela máscara do neon de hover"
+        },
+        {
+          "type": "fixed",
+          "text": "Resolução da imagem da classe no overlay de passiva"
+        },
+        {
+          "type": "removed",
+          "text": "Slots de vídeo onReveal e onPlay das cartas (substituídos pela imagem ao usar)"
+        }
+      ]
+    },
+    {
       "version": "1.5.11",
       "date": "2026-09-05",
       "changes": [
