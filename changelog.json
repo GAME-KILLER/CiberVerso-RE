@@ -1,6 +1,28 @@
 {
   "versions": [
     {
+      "version": "1.5.13",
+      "date": "2026-09-09",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Modal de crop 16:9 para a Imagem ao Usar das cartas"
+        },
+        {
+          "type": "new",
+          "text": "Modo centralizado/espelhado no overlay de imagem (passivas mantêm modo ancorado)"
+        },
+        {
+          "type": "improved",
+          "text": "Modal de crop redesenhado: suspenso do topo, visual glass minimalista, overlay leve e rodapé reordenado"
+        },
+        {
+          "type": "fixed",
+          "text": "Espelhamento da imagem sobrevive à animação de slide do overlay"
+        }
+      ]
+    },
+    {
       "version": "1.5.12",
       "date": "2026-09-08",
       "changes": [
