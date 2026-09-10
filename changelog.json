@@ -1,6 +1,44 @@
 {
   "versions": [
     {
+      "version": "1.5.14",
+      "date": "2026-09-10",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Comando /game status — lista no chat o título e a descrição dos status ativos do jogador"
+        },
+        {
+          "type": "new",
+          "text": "Comandos /game info classe [nome] e /game info suporte [nome] — consultam qualquer classe/suporte pelo nome"
+        },
+        {
+          "type": "new",
+          "text": "Opção na aba Live para anunciar status aplicado no chat"
+        },
+        {
+          "type": "new",
+          "text": "Tags de formatação nas mensagens do jogo (destaques com gradiente, divisores, subtítulos e pílulas coloridas)"
+        },
+        {
+          "type": "improved",
+          "text": "Menu de notificação redesenhado — formato quadrado, melhor aproveitamento da largura da tela, texto com scroll e botões sempre visíveis"
+        },
+        {
+          "type": "improved",
+          "text": "Nova fonte (Cyberfall) e cores atualizadas no menu de notificação"
+        },
+        {
+          "type": "fixed",
+          "text": "Notificações agora aparecem acima do menu principal"
+        },
+        {
+          "type": "fixed",
+          "text": "Textos longos de mensagens do jogo eram cortados no centro, sem scroll e sem quebras de linha"
+        }
+      ]
+    },
+    {
       "version": "1.5.13",
       "date": "2026-09-09",
       "changes": [
