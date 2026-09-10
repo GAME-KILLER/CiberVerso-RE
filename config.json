@@ -4,8 +4,8 @@
   "assetValidation": true,
   "broadcast": {
     "enabled": false,
-    "id": "msg-2026-09-09",
+    "id": "msg-2026-09-10",
     "title": "CiberVerso está perto da versão Final",
-    "text": "O jogo está próximo da sua versão final, a parte visual está quase 90% completa, praticamente todos os bugs foram corrigidos, após o restante das coisas serem verificadas, melhoradas e concluídas nas versões subsequentes até chegar na versão final, quando o desenvolvimento do jogo será encerrado e o jogo não receberá mais atualizações oficiais por minha parte *Imperador*. Nesse ponto o repositório que contém o código completo do jogo, que é referenciado na aba *Sobre*, ficará público.\n\nPlanos descartados da versão final:\n• Multiplayer\n• Versão para Celular\n• Suporte a comandos via Discord\n\nPlanos pretendidos na versão final:\n• Comandos novos e melhorados para o modo live (status, listar - classes & suportes, info - classe/suporte específico, entre outros)\n• Novo tipo de carta\n• Atualização nos personagens\n• Atualização nas mensagens ao chat\n• Novas opções de retorno no chat como volta de passiva, qte, entre outras coisas"
+    "text": "[big]Status do desenvolvimento[/big]\n\nO jogo está próximo da versão final: a parte visual está quase [hl]90% completa[/hl] e praticamente todos os bugs foram corrigidos.\n\nO restante será verificado, melhorado e concluído nas versões subsequentes. Na versão final, o desenvolvimento será encerrado e o jogo não receberá mais atualizações oficiais por minha parte, [hl]Imperador[/hl].\n\nNesse ponto, o repositório que contém o código completo do jogo — referenciado na aba [hl]Sobre[/hl] — ficará público.\n\n[hr]\n\n[badge-danger]Planos descartados[/badge-danger]\n\n• Multiplayer\n• Versão para Celular\n• Suporte a comandos via Discord\n\n[hr]\n\n[badge]Planos pretendidos[/badge]\n\n• Comandos novos e melhorados para o modo live (status, listar — classes & suportes, info — classe/suporte específico, entre outros)\n• Novo tipo de carta\n• Atualização nos personagens\n• Atualização nas mensagens ao chat\n• Novas opções de retorno no chat, como volta de passiva, QTE, entre outras coisas"
   }
 }
