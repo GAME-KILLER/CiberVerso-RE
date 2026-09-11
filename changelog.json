@@ -1,6 +1,20 @@
 {
   "versions": [
     {
+      "version": "1.5.15",
+      "date": "2026-09-11",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Melhorias no sistema de efeitos de cartas: adicionado suporte a áudio onPlay nos efeitos de uso de cartas e melhorado o feedback visual no modo chat"
+        },
+        {
+          "type": "fixed",
+          "text": "Correções no menu de notificação (fonte, texto, layout, z-index e largura da tela)"
+        }
+      ]
+    },
+    {
       "version": "1.5.14",
       "date": "2026-09-10",
       "changes": [
