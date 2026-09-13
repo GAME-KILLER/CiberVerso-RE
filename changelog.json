@@ -1,6 +1,60 @@
 {
   "versions": [
     {
+      "version": "1.5.16",
+      "date": "2026-09-13",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Novo visual do painel de carta (UCM): nome sobreposto na arte, sem header, conteudo organizado em ficha de comando"
+        },
+        {
+          "type": "improved",
+          "text": "Fonte Cyberfall aplicada em todo o menu principal e no menu de pause"
+        },
+        {
+          "type": "improved",
+          "text": "Fonte Cyberfall aplicada em todo o menu de Configuracoes"
+        },
+        {
+          "type": "improved",
+          "text": "Aba Live: a thumbnail da live agora e o fundo do card de status, com escurecido para manter o texto legivel"
+        },
+        {
+          "type": "fixed",
+          "text": "Cartas interativas nao executavam audio, video ou imagem ao serem usadas"
+        },
+        {
+          "type": "fixed",
+          "text": "Som ao usar nao tocava quando a carta tambem tinha Imagem ao Usar"
+        },
+        {
+          "type": "fixed",
+          "text": "Som ao usar e Imagem ao Usar agora entram no mesmo instante"
+        },
+        {
+          "type": "fixed",
+          "text": "/game usar slot falhava em silencio em cartas sem numero no nome do arquivo de arte"
+        },
+        {
+          "type": "fixed",
+          "text": "Em /game usar slot de carta interativa ou QTE, a midia tocava na hora do comando; agora so depois de /game opcao ou /game qte"
+        },
+        {
+          "type": "fixed",
+          "text": "Carta interativa: selecionar o alvo antes de escolher a opcao consumia o uso sem aplicar o efeito"
+        },
+        {
+          "type": "fixed",
+          "text": "Editar uma carta (opcoes ou midia) nao valia para os usos seguintes sem reiniciar o jogo"
+        },
+        {
+          "type": "fixed",
+          "text": "A imagem de uso entrava pelo lado do alvo em vez do lado de quem usou a carta"
+        }
+      ]
+    },
+    {
       "version": "1.5.15",
       "date": "2026-09-11",
       "changes": [
