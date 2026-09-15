@@ -1,6 +1,48 @@
 {
   "versions": [
     {
+      "version": "1.5.17",
+      "date": "2026-09-15",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Motor de SFX em Web Audio"
+        },
+        {
+          "type": "new",
+          "text": "Som ao usar toca no lado de quem jogou a carta"
+        },
+        {
+          "type": "new",
+          "text": "Música abaixa automaticamente enquanto vídeo de carta toca"
+        },
+        {
+          "type": "improved",
+          "text": "Volumes da aba Som aplicam e persistem corretamente"
+        },
+        {
+          "type": "improved",
+          "text": "Volume de cada SFX passa a ser fração do volume global de SFX"
+        },
+        {
+          "type": "fixed",
+          "text": "Recupera cartas com valores antigos que sumiam da aba Cartas"
+        },
+        {
+          "type": "fixed",
+          "text": "Labels de tipo de carta traduzidos conforme o idioma"
+        },
+        {
+          "type": "fixed",
+          "text": "Mídia removida no editor voltava após salvar e reiniciar"
+        },
+        {
+          "type": "removed",
+          "text": "Remoção do áudio Som ao Acertar (ficando apenas o som ao usar)"
+        }
+      ]
+    },
+    {
       "version": "1.5.16",
       "date": "2026-09-13",
       "changes": [
