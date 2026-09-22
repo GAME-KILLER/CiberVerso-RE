@@ -1,6 +1,68 @@
 {
   "versions": [
     {
+      "version": "1.5.18",
+      "date": "2026-09-22",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Sub-classes: variantes de classe com nome, imagem, rosto, status, passiva e áudio próprios"
+        },
+        {
+          "type": "new",
+          "text": "Troca de sub-classe em jogo: segurar o retrato e arrastar para os lados"
+        },
+        {
+          "type": "new",
+          "text": "Comando /game sub para trocar de sub-classe pelo chat"
+        },
+        {
+          "type": "new",
+          "text": "Ação de mudar sub-classe nas cartas interativas, com alvo para quem jogou e para o rival"
+        },
+        {
+          "type": "new",
+          "text": "Cooldown de passiva independente por variante de classe"
+        },
+        {
+          "type": "improved",
+          "text": "Editor de sub-classes na aba do personagem: lista vertical, com ordem e configurações recolhidas"
+        },
+        {
+          "type": "improved",
+          "text": "Sub-abas do editor com barra de rolagem, sem estourar o painel"
+        },
+        {
+          "type": "improved",
+          "text": "Troca de sub-classe com a linha neon do jogo e descrição na fonte do jogo"
+        },
+        {
+          "type": "improved",
+          "text": "Editor de opções da carta interativa redesenhado: opção colapsada, um comando por linha e controles visuais (miniatura da imagem, retrato da classe, grade de escolha)"
+        },
+        {
+          "type": "improved",
+          "text": "Bloco Configurações do menu principal com imagem fixa, como os outros"
+        },
+        {
+          "type": "fixed",
+          "text": "Adicionar ações às opções volta a habilitar o botão Salvar"
+        },
+        {
+          "type": "fixed",
+          "text": "Grade de fundos e versos deixou de estourar o painel e de cortar as imagens"
+        },
+        {
+          "type": "fixed",
+          "text": "Botões de mais e menos do menu estavam desalinhados e com hover exagerado"
+        },
+        {
+          "type": "removed",
+          "text": "Campo Avançado das opções da carta (os comandos passam a ser salvos automaticamente)"
+        }
+      ]
+    },
+    {
       "version": "1.5.17",
       "date": "2026-09-15",
       "changes": [

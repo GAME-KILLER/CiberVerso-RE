@@ -1,6 +1,6 @@
 {
-  "version": "1.5.17",
-  "generatedAt": "2026-09-15T15:07:06.070Z",
+  "version": "1.5.18",
+  "generatedAt": "2026-09-22T13:12:46.811Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -191,6 +191,11 @@
       "path": "ui/menu-icons/banner_characters.webp",
       "sha256": "bea97fc022554bbf81e488adc808361af7c01d02525ec68df5d5864f2f4abe5c",
       "size": 266900
+    },
+    {
+      "path": "ui/menu-icons/banner_config.webp",
+      "sha256": "c5162383d3a128d9ec8050a6b4972561c99a4bb1843d176e0458b5d08ab87fa1",
+      "size": 165160
     },
     {
       "path": "ui/menu-icons/banner_debug.webp",
