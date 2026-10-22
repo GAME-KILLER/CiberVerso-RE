@@ -1,6 +1,72 @@
 {
   "versions": [
     {
+      "version": "1.6.0",
+      "date": "2026-10-22",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Novo editor de cartas e personagens: preview grande em palco, carta 3D com o verso do jogo e arte do personagem em tela cheia"
+        },
+        {
+          "type": "new",
+          "text": "Vídeo da passiva: configure um vídeo por classe e por sub-classe, que toca ao ativar a habilidade"
+        },
+        {
+          "type": "new",
+          "text": "Descrições com formatação de texto e prévia do vídeo ao usar da carta no editor"
+        },
+        {
+          "type": "new",
+          "text": "Cursores personalizados em todo o app"
+        },
+        {
+          "type": "new",
+          "text": "Botões de ação em placa (Cancelar/Salvar) e grids de cartas e personagens com moldura e mais espaço"
+        },
+        {
+          "type": "improved",
+          "text": "Palco dos editores com cenário de sala escura, identidade e card de mídia"
+        },
+        {
+          "type": "improved",
+          "text": "Carta do editor em vitrine: o mouse inclina só a ponta sob o cursor, sem gangorra"
+        },
+        {
+          "type": "improved",
+          "text": "Prévia de personagem sem sombra na arte, rosto circular e recorte na proporção certa"
+        },
+        {
+          "type": "improved",
+          "text": "Abas e sub-abas do editor em botões de placa, com rótulo reto e degrau colorido"
+        },
+        {
+          "type": "improved",
+          "text": "Cursor de bloqueio nos estados inativos e mãozinha nos links"
+        },
+        {
+          "type": "improved",
+          "text": "Escolha da ação das opções interativas em lista agrupada"
+        },
+        {
+          "type": "improved",
+          "text": "Aviso de upload some sozinho e fonte maior no texto de passiva do seletor"
+        },
+        {
+          "type": "fixed",
+          "text": "Vídeo da passiva não tocava: o salvamento apagava a configuração; agora ela é preservada e resolvida pela variante ativa"
+        },
+        {
+          "type": "fixed",
+          "text": "Placa das sub-abas não cobre mais o texto, o rótulo define a largura e a inclinação foi corrigida"
+        },
+        {
+          "type": "fixed",
+          "text": "Drop-down de Tipo volta a funcionar dentro da gaveta do editor"
+        }
+      ]
+    },
+    {
       "version": "1.5.18",
       "date": "2026-09-22",
       "changes": [

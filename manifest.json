@@ -1,6 +1,6 @@
 {
-  "version": "1.5.18",
-  "generatedAt": "2026-09-22T13:12:46.811Z",
+  "version": "1.6.0",
+  "generatedAt": "2026-10-22T13:35:21.475Z",
   "files": [
     {
       "path": "fonts/Bring Race.otf",
@@ -166,6 +166,11 @@
       "path": "ui/creators/imperador.webp",
       "sha256": "828110b90a866cb9975ce8ff59c695acd28fbefa29a6b4f19ff43a49785acb64",
       "size": 22144
+    },
+    {
+      "path": "ui/cursors/default.svg",
+      "sha256": "be408e5469b0a5089bb4e139cbe217c6e14d9023c55b61eea3ab92eebae8bd66",
+      "size": 1513
     },
     {
       "path": "ui/loading-screen/loading-1.webm",
@@ -476,6 +481,11 @@
       "path": "ui/placeholders/default_card.webm",
       "sha256": "1556b4ba594dfd5287e7d799d65e33aa27d0e1cc17d8fd4b8cb11ddf5a63f704",
       "size": 4640931
+    },
+    {
+      "path": "ui/placeholders/default_card.webp",
+      "sha256": "1f09af23734f861ae82216011966faf6e9edf43b46f852774f957bec83454026",
+      "size": 1376006
     },
     {
       "path": "ui/placeholders/default_classe.webp",
