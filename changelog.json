@@ -1,6 +1,72 @@
 {
   "versions": [
     {
+      "version": "1.6.1",
+      "date": "2026-10-24",
+      "changes": [
+        {
+          "type": "new",
+          "text": "HUD do gameplay reconstruído sobre uma placa única que liga a barra de HP, o suporte e os QTEs, com o ícone do suporte encaixado na lateral da tela"
+        },
+        {
+          "type": "new",
+          "text": "Bloco central do gameplay (turno, tempo e troca de deck) em fita com linha ciano/roxo animada na base"
+        },
+        {
+          "type": "new",
+          "text": "Barra de carregamento nova: arredondada, com faixas internas e brilho percorrendo o trecho vazio"
+        },
+        {
+          "type": "new",
+          "text": "Todos os botões do app padronizados em placa, com o degrau na cor da ação (salvar, cancelar, excluir, conectar)"
+        },
+        {
+          "type": "improved",
+          "text": "QTEs do HUD maiores, em paralelogramo, com a arte inteira visível e o mesmo desenho nos dois jogadores"
+        },
+        {
+          "type": "improved",
+          "text": "Tempo de turno e troca de deck com mais contraste e área de clique maior no centro"
+        },
+        {
+          "type": "improved",
+          "text": "Loading com progresso animado e a tela só some depois que a barra chega em 100%"
+        },
+        {
+          "type": "improved",
+          "text": "Grades de cartas e personagens renderizam sob demanda: abrir as abas e buscar ficou mais leve"
+        },
+        {
+          "type": "improved",
+          "text": "Itens da grade de status em placa-moldura, com o fundo tingido pela cor do status"
+        },
+        {
+          "type": "improved",
+          "text": "Ícone do suporte colado na borda da tela e sem o fio colorido no topo"
+        },
+        {
+          "type": "fixed",
+          "text": "QTE em cooldown ficava tingido com a cor do jogador (ciano no P1, roxo no P2); agora fica cinza nos dois, indicando que está indisponível"
+        },
+        {
+          "type": "fixed",
+          "text": "Boot com assets ausentes ou incompletos travava num loop de reparo; agora mostra a lista de arquivos e encerra o jogo"
+        },
+        {
+          "type": "fixed",
+          "text": "O corte da fita central estava no mesmo sentido das barras de HP; agora é o espelho e as diagonais casam"
+        },
+        {
+          "type": "fixed",
+          "text": "A linha inferior da placa do HUD passava por trás do ícone do suporte; agora entra em diagonal e termina no pé dele"
+        },
+        {
+          "type": "fixed",
+          "text": "Fundo do card de status não acompanhava a cor do status e o degrau encostava no item vizinho"
+        }
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-10-22",
       "changes": [
