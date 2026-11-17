@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "version": "1.6.2-rc",
+      "date": "2026-11-17",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Atualiza ícones do aplicativo (icon.png 256x256, 512x512.png 512x512, icon.ico multiresolução)"
+        }
+      ]
+    },
+    {
       "version": "1.6.1",
       "date": "2026-10-24",
       "changes": [
