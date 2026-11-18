@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "version": "1.6.3-rc",
+      "date": "2026-11-18",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Atualiza assets visuais: creators banner e loading-1 convertidos de JPG para WebP"
+        },
+        {
+          "type": "improved",
+          "text": "Suporta imagem estática no lugar de vídeo no loading global (<video> → )"
+        },
+        {
+          "type": "improved",
+          "text": "Atualiza dependência do Electron (40.10.2 → 40.10.6)"
+        }
+      ]
+    },
+    {
       "version": "1.6.2-rc",
       "date": "2026-11-17",
       "changes": [
